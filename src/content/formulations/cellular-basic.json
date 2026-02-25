@@ -1,0 +1,37 @@
+{
+  "title": "Cellular Resilience Support (Basic)™",
+  "slug": "cellular-basic",
+  "type": "module",
+  "form": "Capsules",
+  "tagline": "Entry-level cellular support for periods of physiological demand",
+  "purpose": "A streamlined, accessible formulation providing foundational cellular resilience support during periods of physiological demand. Designed as an introductory option for individuals new to the HTP System, using well-tolerated antioxidant botanicals at moderate doses.",
+  "icon": "/assets/illustrations/cellular-basic.svg",
+  "supports": [
+    "Normal antioxidant defense during periods of physiological demand",
+    "Healthy cellular resilience and adaptive response",
+    "Normal energy metabolism support",
+    "Manageable daily supplementation for sensitive individuals",
+    "Foundation for transitioning to more comprehensive protocols under practitioner guidance"
+  ],
+  "ingredients": [
+    { "name": "Turmeric Root Extract", "form": "95% Curcuminoids", "amount": "250 mg" },
+    { "name": "Green Tea Extract", "form": "50% EGCG", "amount": "150 mg" },
+    { "name": "Vitamin D3", "form": "Cholecalciferol, lanolin-derived", "amount": "2000 IU" },
+    { "name": "Vitamin C", "form": "Buffered ascorbate", "amount": "250 mg" },
+    { "name": "Zinc (as Bisglycinate)", "form": "Albion® TRAACS™", "amount": "15 mg" }
+  ],
+  "dosing": [
+    { "time": "Morning", "amount": "2 capsules", "note": "With food" }
+  ],
+  "safetyNotes": [
+    "Consult a qualified healthcare practitioner before use if pregnant, nursing, or managing any health condition.",
+    "Do not exceed recommended dose.",
+    "Keep out of reach of children."
+  ],
+  "suitedFor": [
+    "Adults new to structured nutritional supplementation",
+    "Individuals seeking accessible, well-tolerated cellular support",
+    "Those in discussion with a practitioner about initiating a more comprehensive HTP protocol"
+  ],
+  "systemRole": "This introductory formulation provides a gentle entry point to the HTP System's cellular resilience dimension. It may be used independently or as a stepping stone toward the Cellular Resilience Complex™ Core."
+}

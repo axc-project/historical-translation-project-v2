@@ -1,0 +1,38 @@
+{
+  "title": "Longevity GlyNAC Powder™",
+  "slug": "longevity-glynac-powder",
+  "type": "module",
+  "form": "Powder (dissolvable)",
+  "tagline": "Glutathione precursor complex for mitochondrial and longevity support",
+  "purpose": "A high-potency powder formulation delivering the GlyNAC combination (Glycine and N-Acetylcysteine) alongside complementary longevity-associated micronutrients. Informed by emerging geroscience research and classical Islamic medical concepts of vital force replenishment.",
+  "icon": "/assets/illustrations/longevity-glynac.svg",
+  "supports": [
+    "Endogenous glutathione biosynthesis as a primary cellular antioxidant",
+    "Mitochondrial biogenesis and function",
+    "Normal cellular energy metabolism",
+    "Healthy oxidative stress balance",
+    "Longevity-associated metabolic pathways (mTOR/AMPK signaling support)"
+  ],
+  "ingredients": [
+    { "name": "Glycine", "form": "Pharmaceutical grade powder", "amount": "1500 mg" },
+    { "name": "N-Acetyl Cysteine (NAC)", "form": "Pharmaceutical grade", "amount": "1500 mg" },
+    { "name": "Nicotinamide Riboside (NR)", "form": "Tru Niagen® GRAS certified", "amount": "300 mg" },
+    { "name": "Magnesium L-Threonate", "form": "Magtein® patented form", "amount": "2000 mg" },
+    { "name": "Vitamin C", "form": "Ascorbic acid, buffered", "amount": "500 mg" }
+  ],
+  "dosing": [
+    { "time": "Morning", "amount": "1 scoop (approx. 6g)", "note": "Dissolved in 8 oz. cold water, on an empty stomach or with a light meal" }
+  ],
+  "safetyNotes": [
+    "Consult a qualified healthcare practitioner before use if pregnant, nursing, or managing any health condition.",
+    "NAC may interact with nitroglycerin and certain chemotherapeutic agents; consult your clinician.",
+    "Individuals with cystinuria should not use NAC-containing formulations without medical supervision.",
+    "Keep out of reach of children."
+  ],
+  "suitedFor": [
+    "Adults with a specific interest in longevity-associated nutritional support",
+    "Individuals seeking to support endogenous glutathione levels through precursor nutrition",
+    "Those working with a practitioner on a comprehensive mitochondrial support protocol"
+  ],
+  "systemRole": "This Module formulation addresses the longevity and mitochondrial resilience dimension of the HTP System. It is designed to complement the Cellular Resilience Complex™ Core and is best used under practitioner guidance."
+}

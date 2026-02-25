@@ -1,0 +1,40 @@
+{
+  "title": "Neuro Resilience Module™",
+  "slug": "neuro-resilience-module",
+  "type": "module",
+  "form": "Capsules (powder option available)",
+  "tagline": "Cognitive aging support and neuroprotective nutrition",
+  "purpose": "A targeted module formulation designed to support normal cognitive function, healthy neuroinflammatory balance, and neuroprotective signaling pathways. Rooted in classical Islamic pharmacopoeial literature on cognitive botanicals, synthesized with contemporary neuroscience research.",
+  "icon": "/assets/illustrations/neuro-resilience.svg",
+  "supports": [
+    "Normal cognitive function and mental clarity",
+    "Healthy neuroinflammatory balance",
+    "Brain-derived neurotrophic factor (BDNF) pathway support",
+    "Healthy acetylcholine metabolism and neuronal membrane integrity",
+    "Normal mood balance and stress adaptive response"
+  ],
+  "ingredients": [
+    { "name": "Lion's Mane Extract", "form": "30% Beta-glucans, fruiting body", "amount": "500 mg" },
+    { "name": "Bacopa Monnieri Extract", "form": "55% Bacosides", "amount": "300 mg" },
+    { "name": "Phosphatidylserine", "form": "Sharp-PS® from sunflower lecithin", "amount": "150 mg" },
+    { "name": "Ashwagandha Extract", "form": "KSM-66® 5% withanolides", "amount": "300 mg" },
+    { "name": "Acetyl-L-Carnitine HCl", "form": "Pharmaceutical grade", "amount": "500 mg" },
+    { "name": "Vinpocetine", "form": "98% purity", "amount": "10 mg" }
+  ],
+  "dosing": [
+    { "time": "Morning", "amount": "2 capsules", "note": "With breakfast" },
+    { "time": "Afternoon", "amount": "1 capsule", "note": "Optional; with lunch for sustained support" }
+  ],
+  "safetyNotes": [
+    "Consult a qualified healthcare practitioner before use if pregnant, nursing, or managing any neurological condition.",
+    "Vinpocetine should not be used by individuals on anticoagulant or antiplatelet therapy without medical supervision.",
+    "Not recommended for use in children or adolescents.",
+    "Keep out of reach of children."
+  ],
+  "suitedFor": [
+    "Adults seeking to support normal cognitive resilience and mental clarity",
+    "Individuals interested in evidence-informed neuroprotective nutrition",
+    "Those following a structured wellness program who wish to add targeted cognitive support"
+  ],
+  "systemRole": "This is a Module formulation intended to be layered upon the three Core formulations. It is not a standalone protocol and is best used under the guidance of a qualified practitioner familiar with the HTP System."
+}
