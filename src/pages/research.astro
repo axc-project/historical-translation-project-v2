@@ -1,0 +1,176 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Hero from '../components/Hero.astro';
+import Section from '../components/Section.astro';
+import DisclaimerBlock from '../components/DisclaimerBlock.astro';
+
+const domains = [
+  {
+    id: 'metabolic',
+    label: '01',
+    title: 'Metabolic Terrain',
+    intro: 'Metabolic health encompasses the complex interplay of digestive enzyme activity, hepatic function, blood glucose regulation, and the microenvironmental conditions that support efficient nutrient utilization. Classical medical traditions recognized the primacy of what Galen called pepsis — the transformative process of digestion — as foundational to all other aspects of physiological well-being.',
+    points: [
+      'Digestive enzyme production declines with age and under physiological stress, affecting nutrient availability',
+      'Bile acid metabolism is central to fat-soluble vitamin absorption and cholesterol homeostasis',
+      'The gut microbiome plays a key role in short-chain fatty acid production and systemic metabolic signaling',
+      'Historical botanical traditions consistently prioritized bitter herbs (Artemisia, Gentiana, artichoke) for hepatic and digestive support — a pattern now supported by identified choleretic mechanisms',
+      'Classical concepts of "cold" and "damp" temperament in Arabic and Galenic medicine often described states recognizable today as reduced digestive fire or hypochlorhydria',
+    ],
+  },
+  {
+    id: 'inflammatory',
+    label: '02',
+    title: 'Inflammatory Balance',
+    intro: 'The concept of inflammatory balance — maintaining the capacity for appropriate acute response while avoiding chronic, low-grade systemic activation — is one of the most active areas of contemporary nutritional research. It also has deep roots in classical medical thought, where the concept of harara (heat) in Arabic medicine, or the Galenic concept of calor innatus, described an analogous if less precisely defined dimension of physiological regulation.',
+    points: [
+      'Polyphenols and flavonoids from plants modulate NF-κB and COX-2 signaling pathways through multiple identified mechanisms',
+      'Curcuminoids, quercetin, and EGCG have been studied extensively for their roles in cellular inflammatory signaling',
+      'The Mediterranean dietary pattern, which overlaps significantly with Rambam\'s dietary recommendations, is associated with favorable inflammatory markers in observational studies',
+      'Historical pharmacopoeias consistently identified turmeric (kurkum), rosemary, and cold-water fish as "anti-heating" agents — a pre-theoretical recognition of anti-inflammatory properties',
+      'Omega-3 fatty acid metabolism produces specialized pro-resolving mediators that support the resolution phase of the inflammatory cycle',
+    ],
+  },
+  {
+    id: 'circulatory',
+    label: '03',
+    title: 'Circulatory Integrity',
+    intro: 'Vascular health — the integrity of the endothelium, normal tone of vascular smooth muscle, and the coherent regulation of hemostasis — is a domain in which botanical medicine has accumulated one of its richest clinical evidence bases. From hawthorn\'s centuries of use in European folk medicine to the modern identification of OPC-mediated endothelial nitric oxide support, the overlap between tradition and mechanism is particularly striking in this domain.',
+    points: [
+      'Endothelial function depends on nitric oxide bioavailability, which is supported by multiple botanical compounds through identified enzymatic pathways',
+      'Oligomeric proanthocyanidins (OPCs) from grape seed and berry sources have demonstrated endothelial-supportive properties in controlled human studies',
+      'Hawthorn berry extracts have been studied in multiple clinical trials for their relationship to cardiac function support, with identified mechanisms involving phosphodiesterase inhibition',
+      'CoQ10 is concentrated in cardiac tissue and plays an essential role in mitochondrial electron transport chain function in cardiac myocytes',
+      'Nattokinase, derived from fermented soybean, has been studied for its fibrinolytic activity and relationship to normal circulatory function',
+    ],
+  },
+  {
+    id: 'cognitive',
+    label: '04',
+    title: 'Cognitive Aging Support',
+    intro: 'The aging brain faces a convergence of challenges — reduced neurogenesis, declining neurotrophic signaling, increased oxidative burden, and shifting neuroinflammatory tone. Classical traditions were attentive to cognitive decline in a way that prefigures many modern concerns: Ibn Sina\'s Canon describes specific botanical preparations for "strengthening the brain\'s spirit" and "sharpening the wit" that include several compounds now under active investigation.',
+    points: [
+      'Brain-derived neurotrophic factor (BDNF) plays a critical role in neuroplasticity, memory consolidation, and neuronal resilience',
+      'Hericenones and erinacines from Lion\'s Mane mushroom have demonstrated NGF-stimulating activity in cellular and animal models',
+      'Bacopa monnieri has been studied in multiple controlled trials for its relationship to memory consolidation and acetylcholine turnover',
+      'Phosphatidylserine is a structural component of neuronal membranes with a qualified health claim recognized by the FDA for cognitive function',
+      'Mitochondrial dysfunction is increasingly recognized as a central feature of neurodegeneration; acetyl-L-carnitine supports mitochondrial fatty acid transport in neural tissue',
+    ],
+  },
+  {
+    id: 'urinary',
+    label: '05',
+    title: 'Urinary Comfort and Flow',
+    intro: 'Urinary health encompasses the function of the bladder epithelium, ureteral smooth muscle tone, prostate tissue homeostasis (in men), and the maintenance of a balanced urinary tract microenvironment. Classical Unani and Arabic botanical medicine developed specific materia medica for urinary support, many of which have now been identified with active phytochemical mechanisms.',
+    points: [
+      'Proanthocyanidins from cranberry inhibit bacterial adhesion to uroepithelial cells through anti-adhesion mechanisms, not antibiotic action',
+      'D-Mannose, a simple sugar, competes with pathogenic bacteria for uroepithelial binding sites',
+      'Saw palmetto fatty acid and sterol fractions have been studied for their relationship to 5-alpha reductase activity and prostate tissue homeostasis',
+      'Beta-sitosterol from plant sterols has demonstrated favorable associations with urinary flow parameters in controlled studies',
+      'Pumpkin seed extract supports bladder detrusor muscle tone through identified mechanisms involving glycine and histidine activity',
+    ],
+  },
+  {
+    id: 'longevity',
+    label: '06',
+    title: 'Longevity & Mitochondrial Resilience',
+    intro: 'The science of biological aging has undergone a remarkable renaissance in recent decades, with the identification of core longevity pathways (mTOR, AMPK, sirtuins, Nrf2) providing mechanistic frameworks for understanding how dietary and supplemental interventions might support healthy aging at the cellular level. Islamic and Jewish classical medicine, while lacking this molecular vocabulary, developed sophisticated systems for what they termed tasil al-hayat — the preservation of vital force.',
+    points: [
+      'Glutathione is the cell\'s primary endogenous antioxidant; its synthesis requires glycine and cysteine, the substrates provided by GlyNAC supplementation',
+      'NAD+ levels decline with age; nicotinamide riboside (NR) is a direct NAD+ precursor with established bioavailability in human studies',
+      'The AMPK/mTOR axis regulates cellular energy sensing and autophagy; caloric restriction mimetics support this pathway through identified mechanisms',
+      'Mitochondrial biogenesis — the creation of new mitochondria — is regulated by PGC-1α and is supported by several botanical and nutritional compounds',
+      'Sirtuin activators, including resveratrol and NMN precursors, modulate epigenetic aging markers in cellular models',
+    ],
+  },
+  {
+    id: 'cellular',
+    label: '07',
+    title: 'Cellular Resilience During Physiological Stress',
+    intro: 'The body\'s capacity to maintain cellular homeostasis during periods of significant physiological demand — whether from environmental, metabolic, or other stressors — depends on intact antioxidant defense systems, healthy mitochondrial function, and appropriate inflammatory resolution. The HTP System addresses this domain with careful, compliance-conscious language: all formulations in this category are framed as supportive of normal physiological resilience, not as interventions against specific disease states.',
+    points: [
+      'Nrf2 is the master regulator of the antioxidant response element; its activation induces phase II detoxification enzymes and glutathione synthesis',
+      'Curcumin phytosomes demonstrate significantly improved bioavailability compared to standard curcumin, reaching plasma concentrations adequate for Nrf2 pathway modulation',
+      'Modified citrus pectin (fractionated) has been studied for its interaction with galectin-3, a protein involved in cellular adhesion and inflammatory signaling',
+      'Selenium as selenomethionine is the preferred bioavailable form and is incorporated into selenoprotein P and glutathione peroxidase',
+      'Vitamin D3 and K2 synergism supports calcium homeostasis, immune modulation, and carboxylation of matrix Gla protein — a combination supported by increasing clinical evidence',
+    ],
+  },
+];
+---
+
+<BaseLayout
+  title="Research"
+  description="The HTP Research Library: educational summaries of the physiological domains addressed by the Historical Translation Project™ formulation system."
+>
+  <Hero
+    label="Research Library"
+    headline="The Science Behind\nthe System."
+    subheadline="An educational overview of the seven physiological domains addressed by the HTP Wellness System — organized by terrain, grounded in both classical tradition and contemporary evidence. All content is for educational purposes only."
+  />
+
+  <!-- Domain navigation -->
+  <div class="bg-navy/5 border-b border-gold/15 sticky top-20 z-40">
+    <div class="max-w-7xl mx-auto px-6 overflow-x-auto">
+      <div class="flex gap-1 py-3 min-w-max">
+        {domains.map(d => (
+          <a href={`#${d.id}`} class="px-4 py-2 text-xs font-sans tracking-wider uppercase text-navy/50 hover:text-gold whitespace-nowrap transition-colors">
+            {d.title}
+          </a>
+        ))}
+      </div>
+    </div>
+  </div>
+
+  <div class="max-w-4xl mx-auto px-6 lg:px-12 py-20 space-y-24">
+    {domains.map((domain, i) => (
+      <div id={domain.id} class="scroll-mt-32">
+        <div class="flex items-start gap-6 mb-8">
+          <div class="text-gold/20 font-mono text-6xl font-bold leading-none flex-shrink-0 hidden md:block">{domain.label}</div>
+          <div>
+            <p class="section-label">{`Physiological Domain ${domain.label}`}</p>
+            <h2 class="font-serif text-3xl md:text-4xl text-navy">{domain.title}</h2>
+          </div>
+        </div>
+        <div class="divider-gold"></div>
+
+        <p class="font-sans text-navy/75 leading-relaxed mb-8">{domain.intro}</p>
+
+        <div class="grid md:grid-cols-5 gap-8">
+          <div class="md:col-span-3">
+            <h3 class="font-serif text-lg text-navy mb-4">Key Considerations</h3>
+            <ul class="space-y-4">
+              {domain.points.map((pt: string) => (
+                <li class="flex items-start gap-3 text-sm font-sans text-navy/70 leading-relaxed">
+                  <span class="text-gold text-xs mt-1 flex-shrink-0">◆</span>
+                  {pt}
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div class="md:col-span-2">
+            <div class="bg-navy/5 p-6 border-l-2 border-gold/30">
+              <h4 class="font-sans text-xs tracking-widest uppercase text-gold mb-4">Further Reading</h4>
+              <p class="text-xs font-sans text-navy/60 leading-relaxed mb-4">
+                The historical and scholarly foundations underlying this domain are explored in depth in our published volumes.
+                <em>Rambam's Guide to Health</em> and <em>Cancer Across Time and Civilizations</em> each provide
+                primary-source analysis of classical pharmacopoeial traditions alongside structured engagement with
+                contemporary science.
+              </p>
+              <a href="/publications" class="inline-flex items-center gap-2 text-xs font-sans text-gold/80 border border-gold/30 px-4 py-2 hover:bg-gold/10 transition-colors">
+                View Publications
+                <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M1 6h10m0 0L7 2m4 4L7 10" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        {i < domains.length - 1 && <div class="mt-16 border-b border-gold/10"></div>}
+      </div>
+    ))}
+  </div>
+
+  <Section tight>
+    <DisclaimerBlock />
+  </Section>
+</BaseLayout>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Cellular Resilience Advanced formulation icon">
+  <circle cx="60" cy="60" r="55" fill="#f5f0e8" opacity="0.8"/>
+  <circle cx="60" cy="60" r="55" fill="none" stroke="#b8962e" stroke-width="0.8" opacity="0.4"/>
+  <!-- Double shield layered -->
+  <path d="M60 36 L76 42 L76 59 C76 70 68 77 60 80 C52 77 44 70 44 59 L44 42 Z" fill="none" stroke="#1a2744" stroke-width="1" opacity="0.4"/>
+  <path d="M60 40 L73 45 L73 59 C73 68 66 74 60 77 C54 74 47 68 47 59 L47 45 Z" fill="#1a2744" opacity="0.08" stroke="#b8962e" stroke-width="1.4"/>
+  <!-- Star/cross inside -->
+  <line x1="60" y1="50" x2="60" y2="68" stroke="#b8962e" stroke-width="2" stroke-linecap="round"/>
+  <line x1="51" y1="59" x2="69" y2="59" stroke="#b8962e" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="60" cy="59" r="4" fill="#b8962e" opacity="0.3"/>
+  <!-- Rx symbol hint -->
+  <text x="60" y="63" font-family="Georgia, serif" font-size="9" fill="#b8962e" text-anchor="middle" opacity="0.8">℞</text>
+  <!-- Small stars around -->
+  <circle cx="46" cy="46" r="1.5" fill="#b8962e" opacity="0.4"/>
+  <circle cx="74" cy="46" r="1.5" fill="#b8962e" opacity="0.4"/>
+  <circle cx="46" cy="74" r="1.5" fill="#b8962e" opacity="0.4"/>
+  <circle cx="74" cy="74" r="1.5" fill="#b8962e" opacity="0.4"/>
+</svg>
