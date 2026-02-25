@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Cellular Resilience Support Basic formulation icon">
-  <circle cx="60" cy="60" r="55" fill="#f5f0e8" opacity="0.8"/>
-  <circle cx="60" cy="60" r="55" fill="none" stroke="#b8962e" stroke-width="0.8" opacity="0.4"/>
-  <!-- Simple cell with shield -->
-  <circle cx="60" cy="60" r="28" fill="none" stroke="#1a2744" stroke-width="1.2" opacity="0.5" stroke-dasharray="4 3"/>
-  <!-- Shield -->
-  <path d="M60 38 L74 43 L74 58 C74 67 67 73 60 76 C53 73 46 67 46 58 L46 43 Z" fill="#1a2744" opacity="0.1" stroke="#b8962e" stroke-width="1.2"/>
-  <path d="M54 57 L58 61 L68 51" stroke="#b8962e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-</svg>
