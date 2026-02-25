@@ -1,0 +1,136 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Hero from '../components/Hero.astro';
+import Section from '../components/Section.astro';
+import DisclaimerBlock from '../components/DisclaimerBlock.astro';
+
+const books = [
+  {
+    title: "Rambam's Guide to Health",
+    subtitle: "A Practical Modern Interpretation",
+    author: "Historical Translation Project™ Editorial Board",
+    year: "2024",
+    pages: "320",
+    desc: `Rabbi Moses ben Maimon — known to the Western world as Maimonides and to the Jewish tradition as Rambam — stands as one of the most extraordinary physician-scholars of any civilization. His medical writings, composed in Judeo-Arabic during his years at the Fatimid and Ayyubid courts of Egypt, represent the apex of classical Islamic-Jewish medical synthesis: rigorous, empirical, and deeply concerned with the practical preservation of health across the human lifespan.
+
+This institutional volume does not romanticize Rambam's medicine. It submits his core dietary and regimentary treatises — the Treatise on Asthma, the Treatise on Poisons, the Mishneh Torah's dietary laws, and the Eight Chapters on health — to careful philological translation and structured comparative analysis with contemporary nutritional science. The result is neither purely historical nor naively contemporary: it is a bridge, constructed with scholarly care and clinical humility.
+
+Chapters cover Rambam's theory of temperament, his principles of digestion and elimination, his remarkable observations on the relationship between mental and physical health, and his botanical materia medica — cross-referenced throughout with modern evidence.`,
+    status: 'Available',
+    tag: 'Medical History & Nutrition',
+  },
+  {
+    title: "Cancer Across Time and Civilizations",
+    subtitle: "A History of Oncological Thought in Classical Medicine",
+    author: "Historical Translation Project™ Research Division",
+    year: "2024",
+    pages: "412",
+    desc: `Disease does not arrive without history. Long before the era of genomics and immunotherapy, physicians across Greek, Roman, Persian, Arabic, and medieval European traditions grappled with the phenomenon we now call cancer — naming it, classifying it, and proposing interventions drawn from the botanical, mineral, and dietary resources available to them.
+
+This volume undertakes a rigorous survey of oncological thinking across these traditions, tracing the conceptual lineage from Hippocratic humoral theory through Galenic elaboration, into the florescence of Islamic medicine in the ninth through thirteenth centuries, and onward into the Scholastic synthesis of medieval Europe. It is a work of intellectual history first, and of medical history second.
+
+Importantly, this work makes no claims about the efficacy of historical treatments. The classical physicians themselves held humility before the most malignant manifestations of disease. What we recover here is a tradition of thought — a remarkable, multi-civilizational attempt to make sense of the body's capacity for uncontrolled growth — and a testament to the enduring human commitment to understanding and supporting life.`,
+    status: 'Available',
+    tag: 'Medical History',
+  },
+  {
+    title: "The Pharmacopoeia of al-Kindi",
+    subtitle: "A Critical Translation with Modern Commentary (Forthcoming)",
+    author: "Historical Translation Project™ Translation Series",
+    year: "2025 (forthcoming)",
+    pages: "approx. 280",
+    desc: `Abu Yusuf Ya'qub ibn Ishaq al-Kindi — the ninth-century polymath of Baghdad — compiled what may be the most systematic pharmaceutical treatise to emerge from the early Islamic classical period. His Aqrabadhin (medical formulary) represents a remarkable confluence of Greek, Syriac, and Mesopotamian botanical traditions, unified under a rigorous system of compound preparation, dosing rationale, and quality specification that anticipates modern pharmaceutical standards by more than a millennium.
+
+This forthcoming critical translation, the first to provide full Arabic-to-English rendering with parallel modern phytochemical commentary, will present al-Kindi's formulary organized by physiological system. Each compound will be accompanied by a scholarly apparatus including variant manuscript readings, historical botanical identification, and a structured comparison with contemporary evidence on the identified compounds' active constituents.
+
+This volume is suitable for historians of medicine, pharmacologists, integrative practitioners, and any reader with a serious interest in the depth and sophistication of pre-modern pharmaceutical science.`,
+    status: 'Forthcoming',
+    tag: 'Translation Series',
+  },
+];
+---
+
+<BaseLayout
+  title="Publications"
+  description="Scholarly publications from the Historical Translation Project™, translating classical botanical and medical texts into modern institutional volumes."
+>
+  <Hero
+    label="Institutional Publications"
+    headline="From the Archives\nto the Bookshelf."
+    subheadline="The Historical Translation Project™ publishes institutional monographs that bring the pharmacopoeial and medical traditions of classical civilization to modern scholarly and practitioner audiences — translated, cross-referenced, and rigorously contextualized."
+  />
+
+  <Section label="Books & Monographs" title="Our Publications">
+    <div class="space-y-12">
+      {books.map((book, i) => (
+        <div class="border border-gold/20 hover:border-gold/40 transition-all duration-300 group">
+          <div class="grid md:grid-cols-3">
+            <!-- Spine / visual -->
+            <div class={`bg-navy ${i % 2 === 0 ? '' : 'bg-navy/90'} p-10 flex flex-col justify-between relative overflow-hidden`}>
+              <!-- Book texture background -->
+              <div class="absolute inset-0 opacity-10">
+                <svg viewBox="0 0 100 200" fill="none" class="w-full h-full">
+                  {Array.from({ length: 20 }).map((_, j) => (
+                    <line x1="0" y1={j * 10} x2="100" y2={j * 10} stroke="#b8860b" stroke-width="0.5"/>
+                  ))}
+                </svg>
+              </div>
+              <div>
+                <p class="text-xs font-sans tracking-widest uppercase text-gold/60 mb-3">{book.tag}</p>
+                <p class={`inline-block text-xs font-sans px-2 py-0.5 border
+                  ${book.status === 'Forthcoming' ? 'text-gold border-gold/40' : 'text-cream/60 border-cream/20'}`}>
+                  {book.status}
+                </p>
+              </div>
+              <div>
+                <p class="font-serif text-4xl text-gold/20 font-bold">{book.year}</p>
+                <p class="text-xs font-sans text-cream/30 mt-1">{book.pages} pages</p>
+              </div>
+            </div>
+
+            <!-- Content -->
+            <div class="md:col-span-2 p-10">
+              <h2 class="font-serif text-2xl md:text-3xl text-navy group-hover:text-gold/80 transition-colors mb-1">
+                {book.title}
+              </h2>
+              <p class="font-sans text-sm text-gold italic mb-2">{book.subtitle}</p>
+              <p class="font-sans text-xs text-navy/40 mb-6 uppercase tracking-widest">{book.author}</p>
+              <div class="space-y-3">
+                {book.desc.split('\n\n').map(para => (
+                  <p class="font-sans text-sm text-navy/70 leading-relaxed">{para}</p>
+                ))}
+              </div>
+              <div class="mt-8">
+                <button
+                  disabled={book.status === 'Forthcoming'}
+                  class={`text-xs font-sans tracking-wider uppercase px-6 py-3 border transition-all duration-200
+                    ${book.status === 'Forthcoming'
+                      ? 'border-navy/20 text-navy/30 cursor-not-allowed'
+                      : 'border-navy text-navy hover:bg-navy hover:text-cream cursor-pointer'}`}
+                >
+                  {book.status === 'Forthcoming' ? 'Coming Soon' : 'Purchase Volume'}
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
+  </Section>
+
+  <section class="bg-navy/5 border-y border-gold/15 py-16">
+    <div class="max-w-3xl mx-auto px-6 text-center">
+      <p class="section-label">Institutional Orders</p>
+      <div class="divider-gold mx-auto"></div>
+      <h3 class="font-serif text-2xl text-navy mb-4">Academic & Institutional Licensing</h3>
+      <p class="font-sans text-sm text-navy/65 leading-relaxed mb-8">
+        For library acquisitions, course adoption, or institutional licensing inquiries, please contact our publications office. We support academic adoption with review copies for qualified faculty.
+      </p>
+      <a href="/contact" class="btn-primary">Contact Publications Office</a>
+    </div>
+  </section>
+
+  <Section tight>
+    <DisclaimerBlock />
+  </Section>
+</BaseLayout>

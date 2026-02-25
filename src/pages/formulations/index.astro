@@ -1,0 +1,74 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Hero from '../../components/Hero.astro';
+import Section from '../../components/Section.astro';
+import Card from '../../components/Card.astro';
+import DisclaimerBlock from '../../components/DisclaimerBlock.astro';
+
+const formulations = await getCollection('formulations');
+const cores = formulations.filter(f => f.data.type === 'core');
+const modules = formulations.filter(f => f.data.type === 'module');
+---
+
+<BaseLayout
+  title="Formulations"
+  description="The HTP Wellness System: three foundational Core formulations and five targeted Modules, grounded in classical botanical scholarship and contemporary phytomedicine research."
+>
+  <Hero
+    label="The HTP Wellness System"
+    headline="Three Cores.\nFive Modules.\nOne Coherent System."
+    subheadline="Each formulation is anchored in historical pharmacopoeial research and refined through the lens of contemporary nutritional science. The system builds from foundational physiological support toward targeted, layered nutrition."
+  />
+
+  <Section label="Foundation" title="Core Formulations">
+    <p class="font-sans text-navy/65 text-sm leading-relaxed max-w-2xl mb-10">
+      The three Core formulations establish foundational physiological terrain across digestive and metabolic function, cellular resilience, and circulatory integrity. They are designed to be the stable base of any protocol.
+    </p>
+    <div class="grid md:grid-cols-3 gap-6 stagger">
+      {cores.map(f => (
+        <Card
+          href={`/formulations/${f.data.slug}`}
+          title={f.data.title}
+          description={f.data.tagline}
+          illustration={f.data.icon}
+          illustrationAlt={f.data.title}
+          badge="Core"
+          badgeColor="navy"
+        />
+      ))}
+    </div>
+  </Section>
+
+  <Section label="Targeted Support" title="Module Formulations" dark>
+    <p class="font-sans text-cream/65 text-sm leading-relaxed max-w-2xl mb-10">
+      The five Module formulations are designed to be layered onto the Core foundation, addressing specific physiological domains. They are best introduced under the guidance of a qualified practitioner.
+    </p>
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 stagger">
+      {modules.map(f => (
+        <div class="bg-cream/5 border border-cream/10 p-8 hover:border-gold/30 hover:bg-cream/8 transition-all duration-300 group cursor-pointer">
+          <a href={`/formulations/${f.data.slug}`} class="block">
+            <div class="w-16 h-16 mb-5 opacity-70 group-hover:opacity-100 transition-opacity">
+              <img src={f.data.icon} alt={f.data.title} class="w-full h-full object-contain brightness-0 invert" />
+            </div>
+            {f.data.practitionerOnly && (
+              <span class="text-xs font-sans tracking-widest uppercase text-gold border border-gold/40 px-2 py-0.5 mb-3 inline-block">
+                Practitioner Only
+              </span>
+            )}
+            <h3 class="font-serif text-xl text-cream mb-2 group-hover:text-gold transition-colors">{f.data.title}</h3>
+            <p class="font-sans text-sm text-cream/50 leading-relaxed mb-5">{f.data.tagline}</p>
+            <span class="text-xs font-sans text-gold/70 tracking-wider uppercase flex items-center gap-1.5">
+              View formulation
+              <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M1 6h10m0 0L7 2m4 4L7 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+            </span>
+          </a>
+        </div>
+      ))}
+    </div>
+  </Section>
+
+  <Section tight>
+    <DisclaimerBlock />
+  </Section>
+</BaseLayout>
