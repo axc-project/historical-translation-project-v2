@@ -1,0 +1,81 @@
+{
+  "title": "Cellular Resilience Advanced (Practitioner Guided)\u2122",
+  "slug": "cellular-advanced",
+  "type": "module",
+  "form": "Powder + Capsules",
+  "tagline": "Advanced-dose cellular resilience support for qualified practitioner protocols",
+  "purpose": "A high-potency, professionally-dosed formulation providing comprehensive cellular resilience support during periods of significant physiological demand. This formulation is intended for use only under the direct supervision of a qualified healthcare practitioner. It supports the body's natural adaptive and homeostatic mechanisms at levels appropriate for therapeutic nutritional protocols.",
+  "icon": "/assets/illustrations/cellular-advanced.svg",
+  "practitionerOnly": true,
+  "supports": [
+    "Intensive antioxidant defense support during periods of significant physiological demand",
+    "Cellular homeostasis maintenance and normal mitochondrial membrane function",
+    "Healthy Nrf2 pathway activation within physiological parameters",
+    "Normal systemic inflammatory balance during physiologically demanding periods",
+    "Comprehensive cellular resilience terrain support as part of a practitioner-supervised protocol"
+  ],
+  "ingredients": [
+    {
+      "name": "Turmeric Phytosome",
+      "form": "Meriva\u00ae BCM-95 curcumin-phospholipid complex",
+      "amount": "1000 mg"
+    },
+    {
+      "name": "EGCG (Green Tea)",
+      "form": "98% standardized",
+      "amount": "400 mg"
+    },
+    {
+      "name": "Quercetin Phytosome",
+      "form": "Sophora japonica, phospholipid complex",
+      "amount": "500 mg"
+    },
+    {
+      "name": "Modified Citrus Pectin",
+      "form": "PectaSol-C\u00ae fractionated",
+      "amount": "5000 mg"
+    },
+    {
+      "name": "N-Acetyl Cysteine",
+      "form": "Pharmaceutical grade",
+      "amount": "600 mg"
+    },
+    {
+      "name": "Selenium (as Selenomethionine)",
+      "form": "SelenoExcell\u00ae GRAS certified",
+      "amount": "200 mcg"
+    },
+    {
+      "name": "Vitamin D3 + K2",
+      "form": "MK-7 form + Cholecalciferol",
+      "amount": "5000 IU / 180 mcg"
+    }
+  ],
+  "dosing": [
+    {
+      "time": "Morning",
+      "amount": "Per practitioner protocol",
+      "note": "Powder component dissolved in 8 oz. water with morning meal"
+    },
+    {
+      "time": "Evening",
+      "amount": "Per practitioner protocol",
+      "note": "Capsule component with evening meal"
+    }
+  ],
+  "safetyNotes": [
+    "THIS FORMULATION IS INTENDED FOR USE ONLY UNDER THE DIRECT SUPERVISION OF A QUALIFIED, LICENSED HEALTHCARE PRACTITIONER.",
+    "Not for self-directed use. Dosing and duration must be determined by a qualified practitioner.",
+    "Not for use in pregnancy without explicit medical supervision.",
+    "Consult clinician regarding potential interactions with all medications, particularly anticoagulants, immunosuppressants, and oncology protocols.",
+    "Selenium toxicity is possible at doses exceeding 400 mcg/day; do not exceed practitioner-prescribed amounts.",
+    "Keep out of reach of children."
+  ],
+  "suitedFor": [
+    "Individuals under the direct care of a qualified healthcare practitioner who has determined this level of support to be appropriate",
+    "Participants in formally supervised nutritional support programs",
+    "Those in consultation with practitioners experienced in therapeutic nutrition during periods of significant physiological demand"
+  ],
+  "systemRole": "This advanced module sits at the apex of the HTP System and is reserved for use within formally supervised protocols. It is not available for general purchase and requires practitioner authorization.",
+  "archeviaBrand": true
+}

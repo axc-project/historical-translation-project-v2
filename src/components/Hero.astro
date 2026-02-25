@@ -1,0 +1,88 @@
+---
+interface Props {
+  label?: string;
+  headline: string;
+  subheadline?: string;
+  cta?: { text: string; href: string };
+  ctaSecondary?: { text: string; href: string };
+  compact?: boolean;
+}
+
+const { label, headline, subheadline, cta, ctaSecondary, compact = false } = Astro.props;
+const lines = headline.split('\\n');
+---
+
+<section class={`relative overflow-hidden bg-navy ${compact ? 'py-16 md:py-20' : 'py-24 md:py-36'}`}>
+
+  <!-- Hero background: layered manuscript + radial glow -->
+  <div class="absolute inset-0 pointer-events-none" aria-hidden="true">
+    <!-- Deep radial gold glow from center -->
+    <div class="absolute inset-0" style="background: radial-gradient(ellipse 70% 60% at 50% 110%, rgba(184,134,11,0.18) 0%, transparent 70%);"></div>
+    <!-- Subtle top-left manuscript texture overlay (CSS pattern) -->
+    <div class="absolute inset-0 opacity-[0.04]" style="
+      background-image: repeating-linear-gradient(0deg, transparent, transparent 34px, rgba(184,134,11,0.6) 35px),
+                        repeating-linear-gradient(90deg, transparent, transparent 54px, rgba(184,134,11,0.3) 55px);
+    "></div>
+    <!-- Large faint circle ornament top-right -->
+    <svg class="absolute -top-20 -right-20 w-[500px] h-[500px] opacity-[0.06]" viewBox="0 0 500 500" fill="none">
+      <circle cx="250" cy="250" r="240" stroke="#b8860b" stroke-width="1"/>
+      <circle cx="250" cy="250" r="180" stroke="#b8860b" stroke-width="0.5"/>
+      <circle cx="250" cy="250" r="120" stroke="#b8860b" stroke-width="0.5"/>
+      <line x1="250" y1="10" x2="250" y2="490" stroke="#b8860b" stroke-width="0.3"/>
+      <line x1="10" y1="250" x2="490" y2="250" stroke="#b8860b" stroke-width="0.3"/>
+    </svg>
+    <!-- Faint Arabic-style geometric left -->
+    <svg class="absolute bottom-0 left-0 w-[340px] h-[340px] opacity-[0.05]" viewBox="0 0 340 340" fill="none">
+      <polygon points="170,10 330,90 330,250 170,330 10,250 10,90" stroke="#b8860b" stroke-width="1"/>
+      <polygon points="170,50 290,115 290,225 170,290 50,225 50,115" stroke="#b8860b" stroke-width="0.5"/>
+      <circle cx="170" cy="170" r="60" stroke="#b8860b" stroke-width="0.5"/>
+    </svg>
+    <!-- HTP logo watermark center-right -->
+    <div class="absolute right-0 top-1/2 -translate-y-1/2 w-[380px] h-[380px] opacity-[0.04] hidden lg:block">
+      <img src="/assets/brand/htp-logo.png" alt="" class="w-full h-full object-contain" />
+    </div>
+  </div>
+
+  <!-- Content -->
+  <div class="relative max-w-5xl mx-auto px-6 lg:px-12">
+    {label && (
+      <div class="flex items-center gap-4 mb-8">
+        <div class="w-10 h-px bg-gold/60"></div>
+        <span class="section-label text-gold/80">{label}</span>
+      </div>
+    )}
+
+    <h1 class={`font-serif text-cream leading-tight mb-6 ${compact ? 'text-3xl md:text-4xl' : 'text-4xl md:text-6xl lg:text-7xl'}`}>
+      {lines.map((line, i) => (
+        <span class={`block slide-up`} style={`animation-delay: ${0.1 + i * 0.15}s; opacity: 0;`}>
+          {i === lines.length - 1 && lines.length > 1
+            ? <span class="text-gold">{line}</span>
+            : line}
+        </span>
+      ))}
+    </h1>
+
+    {subheadline && (
+      <p class="font-sans text-cream/65 leading-relaxed max-w-2xl mb-10 slide-up text-base md:text-lg"
+         style="animation-delay: 0.4s; opacity: 0;">
+        {subheadline}
+      </p>
+    )}
+
+    {(cta || ctaSecondary) && (
+      <div class="flex flex-wrap gap-4 slide-up" style="animation-delay: 0.55s; opacity: 0;">
+        {cta && <a href={cta.href} class="btn-primary">{cta.text}</a>}
+        {ctaSecondary && (
+          <a href={ctaSecondary.href} class="inline-flex items-center gap-2 text-sm font-sans text-cream/70 hover:text-gold transition-colors border-b border-cream/20 hover:border-gold pb-0.5">
+            {ctaSecondary.text}
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12m0 0L8 2m5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </a>
+        )}
+      </div>
+    )}
+  </div>
+
+  <!-- Bottom fade -->
+  <div class="absolute bottom-0 left-0 right-0 h-16 pointer-events-none"
+       style="background: linear-gradient(to bottom, transparent, rgba(248,243,232,0.06));"></div>
+</section>
