@@ -1,0 +1,107 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Hero from '../../components/Hero.astro';
+import Section from '../../components/Section.astro';
+import Card from '../../components/Card.astro';
+import DisclaimerBlock from '../../components/DisclaimerBlock.astro';
+
+const formulations = await getCollection('formulations');
+const cores = formulations.filter(f => f.data.type === 'core');
+const modules = formulations.filter(f => f.data.type === 'module');
+---
+
+<BaseLayout
+  title="Formulations"
+  description="The HTP Wellness System: three foundational Core formulations and five targeted Modules, grounded in classical botanical scholarship and contemporary phytomedicine research."
+>
+  <Hero
+    label="The HTP Wellness System"
+    headline="Three Cores.\nFive Modules.\nOne Coherent System."
+    subheadline="Each formulation is anchored in historical pharmacopoeial research and refined through the lens of contemporary nutritional science. The system builds from foundational physiological support toward targeted, layered nutrition."
+  />
+
+  <Section label="Foundation" title="Core Formulations">
+    <p class="font-sans text-navy/65 text-sm leading-relaxed max-w-2xl mb-10">
+      The three Core formulations establish foundational physiological terrain across digestive and metabolic function, cellular resilience, and circulatory integrity. They are designed to be the stable base of any protocol.
+    </p>
+    <div class="grid md:grid-cols-3 gap-6 stagger">
+      {cores.map(f => (
+        <a href={`/formulations/${f.data.slug}`}
+           class="border border-gold/20 hover:border-gold/50 hover:shadow-lg transition-all duration-300 group bg-cream-warm block">
+          <!-- Bottle / icon area -->
+          <div class="bg-navy flex items-center justify-center h-56 relative overflow-hidden">
+            <div class="absolute inset-0 opacity-5">
+              <svg viewBox="0 0 100 100" fill="none" class="w-full h-full">
+                <circle cx="50" cy="50" r="45" stroke="#b8860b" stroke-width="0.5"/>
+                <circle cx="50" cy="50" r="30" stroke="#b8860b" stroke-width="0.3"/>
+              </svg>
+            </div>
+            {f.data.bottleImage ? (
+              <img src={f.data.bottleImage} alt={f.data.title}
+                   class="h-48 w-auto object-contain drop-shadow-xl group-hover:scale-105 transition-transform duration-300" />
+            ) : (
+              <img src={f.data.icon} alt={f.data.title}
+                   class="w-20 h-20 object-contain brightness-0 invert opacity-50" />
+            )}
+            <span class="absolute top-3 left-3 text-xs tracking-widest uppercase font-sans text-cream/70 border border-cream/20 px-2 py-0.5">Core</span>
+          </div>
+          <!-- Text -->
+          <div class="p-6">
+            {f.data.archeviaBrand && (
+              <img src="/assets/brand/archevia-logo-black.png" alt="Archevia™" class="h-8 w-auto mb-3 opacity-80" />
+            )}
+            <h3 class="font-serif text-lg text-navy group-hover:text-gold/80 transition-colors mb-2">{f.data.title}</h3>
+            <p class="font-sans text-sm text-navy/60 leading-relaxed mb-4">{f.data.tagline}</p>
+            <span class="text-xs font-sans text-gold/70 tracking-wider uppercase flex items-center gap-1.5">
+              View formulation
+              <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M1 6h10m0 0L7 2m4 4L7 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+            </span>
+          </div>
+        </a>
+      ))}
+    </div>
+  </Section>
+
+  <Section label="Targeted Support" title="Module Formulations" dark>
+    <p class="font-sans text-cream/65 text-sm leading-relaxed max-w-2xl mb-10">
+      The five Module formulations are designed to be layered onto the Core foundation, addressing specific physiological domains. They are best introduced under the guidance of a qualified practitioner.
+    </p>
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 stagger">
+      {modules.map(f => (
+        <a href={`/formulations/${f.data.slug}`}
+           class="bg-cream/5 border border-cream/10 hover:border-gold/40 transition-all duration-300 group block overflow-hidden">
+          <!-- Bottle or icon header -->
+          <div class="bg-navy/60 h-44 flex items-center justify-center relative">
+            {f.data.bottleImage ? (
+              <img src={f.data.bottleImage} alt={f.data.title}
+                   class="h-40 w-auto object-contain drop-shadow-xl group-hover:scale-105 transition-transform duration-300" />
+            ) : (
+              <img src={f.data.icon} alt={f.data.title}
+                   class="w-16 h-16 object-contain brightness-0 invert opacity-40" />
+            )}
+            {f.data.practitionerOnly && (
+              <span class="absolute top-3 right-3 text-xs font-sans tracking-widest uppercase text-gold border border-gold/60 px-2 py-0.5 bg-navy/80">
+                Rx Only
+              </span>
+            )}
+          </div>
+          <!-- Text body -->
+          <div class="p-7">
+            <img src="/assets/brand/archevia-logo-black.png" alt="Archevia™" class="h-8 w-auto mb-4 opacity-80" />
+            <h3 class="font-serif text-xl text-cream mb-2 group-hover:text-gold transition-colors">{f.data.title}</h3>
+            <p class="font-sans text-sm text-cream/50 leading-relaxed mb-5">{f.data.tagline}</p>
+            <span class="text-xs font-sans text-gold/70 tracking-wider uppercase flex items-center gap-1.5">
+              View formulation
+              <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M1 6h10m0 0L7 2m4 4L7 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+            </span>
+          </div>
+        </a>
+      ))}
+    </div>
+  </Section>
+
+  <Section tight>
+    <DisclaimerBlock />
+  </Section>
+</BaseLayout>

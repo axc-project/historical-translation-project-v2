@@ -1,0 +1,143 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Hero from '../components/Hero.astro';
+import Section from '../components/Section.astro';
+import Card from '../components/Card.astro';
+---
+
+<BaseLayout
+  title="Home"
+  description="Historical Translation Project™ — Premium botanical wellness formulations grounded in classical Islamic and medieval pharmacopoeia and contemporary phytomedicine science."
+>
+  <!-- HERO -->
+  <Hero
+    label="Historical Translation Project™"
+    headline="Ancient Wisdom,\nRigorously Translated."
+    subheadline="We bridge the classical botanical pharmacopoeias of medieval Islamic and Jewish medicine with the standards of contemporary nutritional science — creating a formulation system grounded in both historical depth and evidential integrity."
+    cta={{ text: 'Explore Formulations', href: '/formulations' }}
+    ctaSecondary={{ text: 'Our Research Approach', href: '/research' }}
+    useHeroImage={true}
+  />
+
+  <!-- TWO PRIMARY CARDS -->
+  <Section tight label="Our Work">
+    <div class="grid md:grid-cols-2 gap-8">
+      <Card
+        href="/formulations"
+        title="The Formulation System"
+        description="Three foundational Cores and a suite of targeted Modules, each grounded in classical botanical traditions and validated through contemporary phytomedicine research. A complete, layered approach to nutritional terrain support."
+        illustration="/assets/illustrations/home-formulations.svg"
+        illustrationAlt="Botanical formulation system"
+        badge="3 Cores · 5 Modules"
+        badgeColor="gold"
+      />
+      <Card
+        href="/publications"
+        title="Scholarly Publications"
+        description="Institutional monographs translating classical medical texts — from Rambam's dietary treatises to the pharmacopoeial traditions of Islamic civilization — into accessible, evidence-referenced volumes for modern readers."
+        illustration="/assets/illustrations/home-publications.svg"
+        illustrationAlt="Scholarly publications"
+        badge="Books & Monographs"
+      />
+    </div>
+  </Section>
+
+  <!-- RESEARCH APPROACH -->
+  <Section
+    label="Methodology"
+    title="The Research Approach"
+    subtitle="We work at the intersection of medical history and modern phytochemistry — a discipline we call translational botanical scholarship."
+    dark
+  >
+    <div class="grid md:grid-cols-3 gap-10 mt-4">
+      {[
+        {
+          step: '01',
+          title: 'Historical Excavation',
+          body: 'We begin in the archives — studying primary sources in Arabic, Hebrew, and Latin, from the canon of Ibn Sina and Maimonides to the botanical pharmacopoeias of al-Kindi and Ibn al-Baytar. We identify formulas, dosing rationales, and therapeutic frameworks that survived centuries of clinical use.',
+        },
+        {
+          step: '02',
+          title: 'Contemporary Synthesis',
+          body: 'Each historically identified compound is then evaluated through the lens of modern phytochemistry, cell biology, and evidence-based nutrition. We look for mechanistic coherence — cases where traditional use aligns with identified molecular pathways.',
+          },
+        {
+          step: '03',
+          title: 'Formulation & Translation',
+          body: "The result is a formulation system that doesn't choose between the old and the new. Each product is built on a foundation of historical precedent, refined with modern standardized extracts, and guided by contemporary safety and dosing research.",
+        },
+      ].map(item => (
+        <div class="stagger">
+          <div class="text-gold/30 font-mono text-5xl font-bold mb-4 leading-none">{item.step}</div>
+          <h3 class="font-serif text-xl text-cream mb-3">{item.title}</h3>
+          <p class="font-sans text-sm text-cream/60 leading-relaxed">{item.body}</p>
+        </div>
+      ))}
+    </div>
+
+    <div class="mt-16 flex items-center gap-8 stagger">
+      <img src="/assets/illustrations/research-approach.svg" alt="Research synthesis approach" class="w-40 h-40 hidden md:block opacity-80" />
+      <div>
+        <p class="font-serif text-cream/80 text-lg md:text-xl italic leading-relaxed max-w-xl">
+          "The physician who masters history will find in it what the laboratory alone cannot provide: the cumulative, patient testimony of centuries of human use."
+        </p>
+        <p class="mt-3 text-xs font-sans text-gold/60 tracking-widest uppercase">— HTP Editorial Principle</p>
+      </div>
+    </div>
+  </Section>
+
+  <!-- HOW TO USE THE SYSTEM -->
+  <Section
+    label="System Overview"
+    title="How the System Works"
+    subtitle="The HTP Wellness System is structured around three foundational Cores and a suite of targeted Modules that may be added under appropriate guidance."
+  >
+    <div class="grid md:grid-cols-3 gap-6 mb-12">
+      {[
+        {
+          title: 'Core Formulations',
+          desc: 'Three formulations address the foundational physiological terrain: digestive and metabolic function, cellular resilience, and circulatory integrity. They are designed to be the stable base of any protocol.',
+          num: '3',
+        },
+        {
+          title: 'Module Formulations',
+          desc: 'Five targeted modules address specific physiological domains: cognitive resilience, longevity and mitochondrial support, urinary health, and two tiers of advanced cellular support.',
+          num: '5',
+        },
+        {
+          title: 'Layered Protocol',
+          desc: 'Cores are established first. Modules are added systematically, ideally under the guidance of a qualified practitioner familiar with the system\'s historical and clinical foundations.',
+          num: '∞',
+        },
+      ].map(item => (
+        <div class="card-base">
+          <div class="text-4xl font-mono text-gold/30 font-bold mb-4">{item.num}</div>
+          <h3 class="font-serif text-xl text-navy mb-3">{item.title}</h3>
+          <p class="font-sans text-sm text-navy/65 leading-relaxed">{item.desc}</p>
+        </div>
+      ))}
+    </div>
+
+    <div class="bg-navy/5 border border-gold/20 p-8 md:p-12">
+      <p class="font-sans text-xs text-navy/40 uppercase tracking-widest mb-4">Important note</p>
+      <p class="font-sans text-sm text-navy/70 leading-relaxed max-w-3xl">
+        The HTP System is designed as nutritional support, not as a medical treatment program. No formulation in this system is intended to diagnose, treat, cure, or prevent any disease. These statements have not been evaluated by the Food and Drug Administration. We encourage all users to consult a qualified healthcare practitioner before beginning any supplementation program.
+      </p>
+    </div>
+  </Section>
+
+  <!-- FINAL CTA -->
+  <section class="bg-gold/10 border-y border-gold/20 py-20">
+    <div class="max-w-3xl mx-auto px-6 text-center">
+      <div class="ornament mb-6">✦</div>
+      <h2 class="font-serif text-3xl md:text-4xl text-navy mb-6">Begin with the Archives</h2>
+      <p class="font-sans text-navy/65 leading-relaxed mb-8">
+        Explore our scholarly publications on classical botanical medicine, then discover how centuries of pharmacopoeial tradition inform our formulation approach.
+      </p>
+      <div class="flex flex-wrap justify-center gap-4">
+        <a href="/publications" class="btn-primary">View Publications</a>
+        <a href="/research" class="btn-outline">Research Library</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
