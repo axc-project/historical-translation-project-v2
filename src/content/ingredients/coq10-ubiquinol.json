@@ -1,0 +1,41 @@
+{
+  "slug": "coq10-ubiquinol",
+  "name": "CoQ10 (Ubiquinol)",
+  "latinName": "Coenzyme Q10",
+  "standardization": "KanekaQH\u2122 reduced form",
+  "domain": "circulatory",
+  "domainLabel": "Circulatory Integrity",
+  "formulas": [
+    "circulatory-vitality-core"
+  ],
+  "historicalUse": "Coenzyme Q10 was discovered and isolated by Dr. Frederick Crane at the University of Wisconsin in 1957. As an endogenous compound, it lacks classical herbal precedent. However, the cardiac and circulatory tonics of Arabic and Galenic medicine \u2014 hawthorn, saffron, rose preparations \u2014 addressed the same physiological terrain that CoQ10 now targets at a molecular level, supporting what classical physicians called the vital spirit of the heart.",
+  "classicalSources": [
+    "Contemporary discovery \u2014 functional parallels in Ibn Sina's cardiac tonics"
+  ],
+  "modernEvidence": "Ubiquinol (reduced CoQ10) is the electron-carrier form in the mitochondrial electron transport chain and a critical lipid-soluble antioxidant in cell membranes. Clinical evidence supports its use in heart failure (NYHA class improvement in Q-SYMBIO trial), statin-associated myopathy (CoQ10 depletion is a documented statin side effect), hypertension, and mitochondrial disease. Ubiquinol form has approximately 3-8x greater bioavailability than ubiquinone.",
+  "mechanisms": [
+    "Mitochondrial electron transport \u2014 essential carrier in Complex I-III of the respiratory chain",
+    "Lipid-soluble antioxidant \u2014 protects LDL and cell membranes from oxidative damage",
+    "Endothelial function \u2014 supports nitric oxide bioavailability and vascular tone",
+    "ATP synthesis \u2014 rate-limiting cofactor for cellular energy production in cardiomyocytes"
+  ],
+  "benefits": [
+    "Supports healthy cardiac energy metabolism",
+    "Supports normal blood pressure already within healthy range",
+    "Supports cellular energy production throughout the body",
+    "May help maintain CoQ10 levels depleted by statin medications"
+  ],
+  "safetyProfile": "Excellent safety profile. Well tolerated at 100\u2013600mg/day. Mild GI discomfort at high doses. Fat-soluble \u2014 absorption enhanced with meals containing fat.",
+  "contraindications": [
+    "No absolute contraindications at therapeutic doses"
+  ],
+  "drugInteractions": [
+    "Warfarin \u2014 CoQ10 has structural similarity to vitamin K; some reports of reduced anticoagulation efficacy; monitor INR",
+    "Statins \u2014 statins deplete endogenous CoQ10; supplementation may be beneficial but does not interfere with statin efficacy",
+    "Antihypertensive medications \u2014 additive blood pressure-lowering effect; monitor BP",
+    "Chemotherapy (doxorubicin) \u2014 CoQ10 may protect against cardiotoxicity; discuss with oncologist"
+  ],
+  "physicianNotes": "Highly appropriate in patients on statin therapy to address medication-induced CoQ10 depletion. Strong evidence base in systolic heart failure. Ubiquinol form is recommended over ubiquinone for patients over 40 and those with absorption concerns. Monitor INR in warfarin patients.",
+  "patientGuidance": "Take with your largest meal of the day \u2014 CoQ10 is fat-soluble and requires dietary fat for absorption. If you take warfarin, inform your physician. If you take a statin medication, CoQ10 supplementation is particularly relevant for you.",
+  "linkedPublications": []
+}

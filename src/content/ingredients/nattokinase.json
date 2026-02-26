@@ -1,0 +1,44 @@
+{
+  "slug": "nattokinase",
+  "name": "Nattokinase",
+  "latinName": "Bacillus subtilis var. natto (fermented soybean enzyme)",
+  "standardization": "NSK-SD\u00ae 2000 FU/g",
+  "domain": "circulatory",
+  "domainLabel": "Circulatory Integrity",
+  "formulas": [
+    "circulatory-vitality-core"
+  ],
+  "historicalUse": "Natto \u2014 fermented soybeans \u2014 has been consumed in Japan since approximately the 10th century CE, traditionally associated with cardiovascular longevity in populations with high consumption. The enzyme nattokinase was isolated and characterized in 1980 by Dr. Hiroyuki Sumi who discovered its fibrinolytic activity. The traditional use of fermented foods for circulatory health appears across multiple classical traditions including Chinese medicine (fermented soybean preparations) and Middle Eastern fermented legume foods.",
+  "classicalSources": [
+    "Traditional Japanese dietary medicine \u2014 natto consumption",
+    "Chinese fermented soybean preparations"
+  ],
+  "modernEvidence": "Nattokinase is a serine protease with direct fibrinolytic activity \u2014 it degrades fibrin clots and activates endogenous plasminogen activators. Clinical studies show significant reductions in whole blood viscosity, fibrinogen levels, and systolic blood pressure. NSK-SD\u00ae is a vitamin K2-free standardized form, removing concern about warfarin interaction from K2 content while preserving full enzymatic activity.",
+  "mechanisms": [
+    "Direct fibrinolysis \u2014 cleaves fibrin clots more effectively than plasmin",
+    "Plasminogen activator stimulation \u2014 upregulates endogenous tPA and uPA",
+    "Antihypertensive \u2014 fibrinolytic activity reduces peripheral vascular resistance",
+    "PAI-1 inhibition \u2014 reduces plasminogen activator inhibitor, promoting fibrinolytic balance"
+  ],
+  "benefits": [
+    "Supports healthy blood viscosity and flow",
+    "Supports healthy fibrinolytic balance",
+    "Promotes normal circulatory comfort",
+    "Supports healthy blood pressure already within normal range"
+  ],
+  "safetyProfile": "Well tolerated. NSK-SD\u00ae is vitamin K2-free, eliminating a key safety concern. Avoid in patients at high bleeding risk. Should be discontinued prior to surgery.",
+  "contraindications": [
+    "Bleeding disorders or active bleeding",
+    "Pre-surgery \u2014 discontinue 2 weeks prior",
+    "Recent stroke \u2014 consult physician before use",
+    "Patients at high bleeding risk"
+  ],
+  "drugInteractions": [
+    "CRITICAL \u2014 Anticoagulants (warfarin, heparin, novel oral anticoagulants): additive fibrinolytic effect; potential for significant bleeding; contraindicated without physician oversight",
+    "Antiplatelet agents (aspirin, clopidogrel) \u2014 additive effect; monitor closely",
+    "Thrombolytics \u2014 contraindicated combination"
+  ],
+  "physicianNotes": "Nattokinase carries the most significant drug interaction risk of ingredients in the circulatory formulation. Contraindicated in patients on anticoagulant or antiplatelet therapy without physician oversight and close monitoring. Discontinue 2 weeks pre-operatively. NSK-SD\u00ae form is preferred as it eliminates vitamin K2 content. Appropriate for healthy adults seeking circulatory terrain support without concurrent anticoagulant therapy.",
+  "patientGuidance": "IMPORTANT: If you take any blood-thinning medications including warfarin, aspirin, clopidogrel, or newer anticoagulants (Xarelto, Eliquis, Pradaxa), do NOT use this product without explicit guidance from your physician. Discontinue use at least 2 weeks before any planned surgery.",
+  "linkedPublications": []
+}

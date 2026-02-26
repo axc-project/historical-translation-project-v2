@@ -1,0 +1,36 @@
+{
+  "slug": "gentian-root",
+  "name": "Gentian Root",
+  "latinName": "Gentiana lutea",
+  "standardization": "Dried herb powder",
+  "domain": "metabolic",
+  "domainLabel": "Metabolic Terrain",
+  "formulas": ["digestive-metabolic-core"],
+  "historicalUse": "One of the oldest documented medicinal plants in Western tradition, gentian was named for Gentius, the Illyrian king credited by Pliny and Dioscorides with discovering its therapeutic properties. It appears prominently in Dioscorides' De Materia Medica as a treatment for digestive weakness, fevers, and parasitic conditions. Ibn Sina classified it under the category of murarrat (bitters) for its role in stimulating digestive secretions. It was a cornerstone of European pharmacopoeias through the 19th century.",
+  "classicalSources": ["Dioscorides — De Materia Medica", "Pliny the Elder — Naturalis Historia", "Ibn Sina — Canon of Medicine", "European Pharmacopoeia (historical editions)"],
+  "modernEvidence": "Gentian root contains amarogentin (among the most bitter substances known to taste receptors) and gentiopicroside. These iridoid glycosides activate bitter taste receptors (TAS2Rs) in the gastrointestinal tract, triggering reflex secretion of saliva, gastric acid, and digestive enzymes. Clinical studies confirm improved gastric motility and appetite stimulation. Gentian is recognized in the German Commission E monographs for loss of appetite and dyspeptic symptoms.",
+  "mechanisms": [
+    "Bitter tonic: amarogentin activates TAS2R taste receptors, stimulating cephalic-phase digestive secretion",
+    "Prokinetic: increases gastric motility and reduces gastric emptying time",
+    "Stomachic: promotes gastric acid and pepsin secretion",
+    "Anti-inflammatory: gentiopicroside inhibits TNF-alpha and IL-6 expression"
+  ],
+  "benefits": [
+    "Supports healthy appetite and gastric secretion",
+    "Promotes efficient gastric motility and emptying",
+    "Supports digestive enzyme activity",
+    "Contributes to upper GI comfort"
+  ],
+  "safetyProfile": "Well tolerated at standard doses. Not recommended in gastric or duodenal ulcer disease due to acid-stimulating properties.",
+  "contraindications": [
+    "Active peptic ulcer disease or gastroesophageal reflux disease (GERD) with acid hypersecretion",
+    "Hypertension at high doses (historical reports; not confirmed at therapeutic doses)"
+  ],
+  "drugInteractions": [
+    "Proton pump inhibitors (PPIs) — opposing mechanisms; clinical significance unclear",
+    "H2 blockers — gentian's acid-stimulating effect may partially antagonize H2 blockade"
+  ],
+  "physicianNotes": "Excellent bitter tonic for patients with hypochlorhydria or functional dyspepsia. Avoid in active peptic ulcer disease. Commission E-approved for dyspepsia and appetite loss. Appropriate for short and long-term use at standard doses.",
+  "patientGuidance": "Take 20–30 minutes before meals for maximum digestive stimulation. If you have a history of stomach ulcers or acid reflux, consult your physician before use.",
+  "linkedPublications": ["rambams-guide-to-health"]
+}

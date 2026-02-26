@@ -1,0 +1,44 @@
+{
+  "slug": "resveratrol",
+  "name": "Resveratrol",
+  "latinName": "Polygonum cuspidatum",
+  "standardization": "50% trans-resveratrol",
+  "domain": "longevity",
+  "domainLabel": "Longevity & Mitochondrial Resilience",
+  "formulas": [
+    "cellular-resilience-complex"
+  ],
+  "historicalUse": "Resveratrol-rich plants including Polygonum cuspidatum (Japanese knotweed) and grape vine have been used in Chinese and Japanese traditional medicine for centuries. Itadori (Polygonum cuspidatum) is a classical remedy in Chinese herbalism for inflammatory conditions, urinary support, and longevity. Grape-based preparations appear in Rambam's dietary writings and throughout Arabic medicine as tonics for cardiac and circulatory health.",
+  "classicalSources": [
+    "Bencao Gangmu (Li Shizhen \u2014 Chinese Materia Medica)",
+    "Maimonides \u2014 Treatise on Asthma (grape preparations)"
+  ],
+  "modernEvidence": "Trans-resveratrol is a stilbene polyphenol with potent sirtuin-1 (SIRT1) activating properties. It mimics caloric restriction at the molecular level, activating longevity-associated pathways including SIRT1/AMPK/mTOR signaling. Clinical research demonstrates anti-inflammatory, neuroprotective, cardioprotective, and potential anti-senescent effects. Bioavailability is formulation-dependent; trans form is significantly more active than cis-resveratrol.",
+  "mechanisms": [
+    "SIRT1 activation \u2014 mimics caloric restriction signaling, promotes mitochondrial biogenesis",
+    "AMPK activation \u2014 improves cellular energy sensing and glucose metabolism",
+    "mTOR inhibition \u2014 supports autophagy and cellular quality control",
+    "Aromatase inhibition \u2014 modulates estrogen metabolism",
+    "NF-kB and COX-2 inhibition \u2014 reduces pro-inflammatory signaling"
+  ],
+  "benefits": [
+    "Supports healthy aging at the cellular level",
+    "Supports mitochondrial function and energy production",
+    "Supports cardiovascular terrain and healthy circulation",
+    "Contributes to balanced inflammatory response"
+  ],
+  "safetyProfile": "Well tolerated at 100\u2013500mg/day. At very high doses (>2.5g/day) some reports of GI discomfort. Trans-resveratrol from P. cuspidatum is the well-studied, stable form.",
+  "contraindications": [
+    "Estrogen-sensitive conditions \u2014 mild estrogenic and anti-estrogenic activity depending on tissue and dose",
+    "Caution during pregnancy \u2014 insufficient safety data",
+    "High doses pre-surgery \u2014 theoretical antiplatelet activity"
+  ],
+  "drugInteractions": [
+    "Anticoagulants \u2014 additive antiplatelet effect; monitor INR with warfarin",
+    "CYP1A2 and CYP3A4 substrates \u2014 resveratrol inhibits these enzymes at high doses",
+    "Chemotherapy \u2014 discuss with oncologist; resveratrol may modulate efficacy of certain cytotoxic agents"
+  ],
+  "physicianNotes": "Of significant interest in longevity medicine and metabolic syndrome protocols. SIRT1/AMPK activation makes it appropriate in pre-diabetic metabolic support. Monitor in patients on anticoagulation. In oncology, timing relative to cytotoxic treatments requires oncologist input.",
+  "patientGuidance": "Take with a fat-containing meal for best absorption. If you are on blood thinners, diabetes medications, or cancer treatment, inform your physician.",
+  "linkedPublications": []
+}

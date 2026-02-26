@@ -1,0 +1,37 @@
+{
+  "slug": "black-pepper-extract",
+  "name": "Black Pepper Extract",
+  "latinName": "Piper nigrum",
+  "standardization": "BioPerine® 95% Piperine",
+  "domain": "metabolic",
+  "domainLabel": "Metabolic Terrain",
+  "formulas": ["digestive-metabolic-core", "cellular-resilience-complex"],
+  "historicalUse": "Black pepper was among the most prized spices in ancient and medieval trade. In Ayurvedic medicine it forms part of the classic Trikatu formula alongside ginger and long pepper. Ibn Sina classified Piper nigrum as a warming digestive agent that opens obstructions and facilitates the action of other medicines — a classical description of bioavailability enhancement. The Arabic concept of musahhil al-adwiya (facilitator of medicines) precisely anticipates modern understanding of piperine as a CYP450 and P-glycoprotein inhibitor.",
+  "classicalSources": ["Ibn Sina — Canon of Medicine", "Charaka Samhita (Trikatu formulation)", "Dioscorides — De Materia Medica"],
+  "modernEvidence": "BioPerine® (standardized 95% piperine) is the best-studied bioenhancement agent in nutritional science. Piperine inhibits intestinal P-glycoprotein efflux and CYP3A4/CYP1A2 hepatic metabolism, significantly increasing the oral bioavailability of curcumin (by 2000%), CoQ10, B vitamins, and numerous phytochemicals. At 5mg per serving, it enhances co-administered nutrient absorption without clinically significant systemic drug interaction risk.",
+  "mechanisms": [
+    "Bioenhancer: inhibits intestinal P-glycoprotein efflux pump, reducing first-pass elimination",
+    "CYP450 modulation: reversible inhibition of CYP3A4 and CYP1A2, increasing absorption window",
+    "Thermogenic: activates TRPV1, contributes to metabolic warming",
+    "Anti-inflammatory: inhibits NF-κB pathway and COX-2 expression"
+  ],
+  "benefits": [
+    "Significantly enhances bioavailability of co-administered nutrients and botanicals",
+    "Supports normal digestive secretion and gastric function",
+    "Contributes to comfortable digestive experience"
+  ],
+  "safetyProfile": "Well tolerated at 5–10mg. GRAS status. Standard ingredient in dietary supplements. BioPerine® is the clinically validated, GRAS-certified form.",
+  "contraindications": [
+    "High doses (>20mg piperine) not recommended during pregnancy",
+    "Caution in patients on narrow therapeutic window medications (see drug interactions)"
+  ],
+  "drugInteractions": [
+    "CRITICAL — CYP3A4 substrates: piperine inhibits CYP3A4; potential to increase plasma levels of cyclosporine, tacrolimus, certain statins, some antiretrovirals",
+    "Phenytoin — case reports of increased serum levels with high-dose piperine",
+    "Carbamazepine — similar caution",
+    "At 5mg dose in supplement context: interaction risk is low but clinically relevant in transplant patients or those on narrow-index medications"
+  ],
+  "physicianNotes": "At 5mg standardized piperine, bioenhancement benefit is clinically meaningful and interaction risk is minimal in most patients. Exercise caution in transplant patients on calcineurin inhibitors (cyclosporine, tacrolimus) — even low-dose piperine may alter trough levels. Therapeutic drug monitoring recommended if combination is unavoidable.",
+  "patientGuidance": "Present in this formulation in small amounts to help your body absorb the other ingredients more effectively. If you take immunosuppressant medications, please inform your physician before use.",
+  "linkedPublications": []
+}

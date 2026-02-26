@@ -1,0 +1,41 @@
+{
+  "slug": "pumpkin-seed-extract",
+  "name": "Pumpkin Seed Extract",
+  "latinName": "Cucurbita pepo",
+  "standardization": "60% Fatty acids",
+  "domain": "urinary",
+  "domainLabel": "Urinary Comfort and Flow",
+  "formulas": [
+    "urinary-flow-support"
+  ],
+  "historicalUse": "Pumpkin seeds have been used for urinary and parasitic conditions across Native American, Central American, Arabic, Ottoman, and Eastern European medical traditions for centuries. They appear in Ottoman court dietary medicine specifically for male urinary health. Indigenous peoples of the Americas used them for bladder and kidney conditions long before European contact. They entered European pharmacopoeias by the 16th century.",
+  "classicalSources": [
+    "Ottoman court dietary medicine",
+    "Native American botanical medicine",
+    "16th century European herbalism"
+  ],
+  "modernEvidence": "Pumpkin seed oil and extract provide delta-7-sterols (cucurbitacins), zinc, selenium, and a unique fatty acid profile. Clinical studies demonstrate benefits in BPH symptoms, overactive bladder in both men and women, and nocturia reduction. Unlike most other urinary support botanicals, pumpkin seed extract has evidence for both male prostate support and female bladder urgency/overactive bladder.",
+  "mechanisms": [
+    "Delta-7-sterol activity \u2014 modulates DHT receptors in prostate and bladder tissue",
+    "5-alpha-reductase inhibition \u2014 reduces prostatic DHT accumulation",
+    "Bladder smooth muscle tone \u2014 reduces detrusor overactivity and urgency",
+    "Zinc provision \u2014 supports prostate epithelial zinc-dependent enzymes",
+    "Antioxidant \u2014 tocopherols and selenium reduce prostate oxidative stress"
+  ],
+  "benefits": [
+    "Supports healthy urinary flow in men and women",
+    "Promotes normal bladder tone and continence",
+    "Supports prostate health and function",
+    "Contributes to antioxidant defense in urinary tract tissues"
+  ],
+  "safetyProfile": "Excellent safety profile. GRAS status for pumpkin seed. No significant adverse effects in clinical trials.",
+  "contraindications": [
+    "No known absolute contraindications at supplement doses"
+  ],
+  "drugInteractions": [
+    "No clinically significant drug interactions identified at standard doses"
+  ],
+  "physicianNotes": "Notably one of the few urinary support botanicals with evidence in women for overactive bladder and urgency \u2014 not just BPH support. Appropriate in mixed-gender clinical practice. Well tolerated and appropriate for long-term use.",
+  "patientGuidance": "Pumpkin seed extract is appropriate for both men and women seeking urinary comfort support. Take with meals for best tolerability.",
+  "linkedPublications": []
+}

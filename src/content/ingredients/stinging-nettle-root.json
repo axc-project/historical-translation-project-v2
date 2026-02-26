@@ -1,0 +1,48 @@
+{
+  "slug": "stinging-nettle-root",
+  "name": "Stinging Nettle Root Extract",
+  "latinName": "Urtica dioica",
+  "standardization": "5:1 extract",
+  "domain": "urinary",
+  "domainLabel": "Urinary Comfort and Flow",
+  "formulas": [
+    "urinary-flow-support"
+  ],
+  "historicalUse": "Stinging nettle is one of the oldest and most universally employed medicinal plants. Dioscorides described urtica for joint pain, kidney stones, and urinary conditions. Ibn Sina included it in the Canon as a warming, diuretic, and anti-inflammatory plant. Medieval European monastics used it extensively for urinary and joint conditions. The root specifically (versus the leaf) was used in Arabic and European traditions for male urinary tract support.",
+  "classicalSources": [
+    "Dioscorides \u2014 De Materia Medica",
+    "Ibn Sina \u2014 Canon of Medicine",
+    "Medieval monastic botany"
+  ],
+  "modernEvidence": "Nettle root extract inhibits sex hormone binding globulin (SHBG), reducing SHBG-testosterone binding and increasing free testosterone bioavailability. It also inhibits aromatase (reducing estrogen synthesis from androgens) and has been shown to reduce prostate epithelial cell proliferation in vitro. Multiple German clinical trials support its use in BPH, and Commission E has approved nettle root for irritable bladder and BPH symptoms.",
+  "mechanisms": [
+    "SHBG inhibition \u2014 nettle root lectins bind SHBG, reducing testosterone binding and increasing free androgen availability",
+    "Aromatase inhibition \u2014 reduces peripheral conversion of androgens to estrogens",
+    "Anti-proliferative \u2014 inhibits EGFR and TGF-beta signaling in prostate epithelium",
+    "5-LOX inhibition \u2014 anti-inflammatory in prostate and urinary tract tissue",
+    "Aquaretic \u2014 mild increase in urinary volume without electrolyte disturbance"
+  ],
+  "benefits": [
+    "Supports healthy urinary flow and prostate function",
+    "Supports healthy testosterone bioavailability",
+    "Promotes normal urinary frequency and comfort",
+    "Contributes to prostate tissue inflammatory balance"
+  ],
+  "safetyProfile": "Well tolerated. Commission E approved. Mild GI discomfort possible. Distinct from nettle leaf \u2014 root extract has different pharmacology and uses.",
+  "contraindications": [
+    "Caution in hormone-sensitive conditions",
+    "Pregnancy \u2014 hormonal activity",
+    "Fluid restriction states \u2014 mild diuretic effect"
+  ],
+  "drugInteractions": [
+    "Diuretics \u2014 additive aquaretic effect",
+    "Antihypertensive medications \u2014 mild additive effect",
+    "Antidiabetic drugs \u2014 mild glucose-lowering effect; monitor blood glucose",
+    "Warfarin \u2014 monitor if taking large amounts long-term"
+  ],
+  "physicianNotes": "Root-specific extract is required \u2014 nettle leaf has different chemistry and indications. Commission E approved for BPH stage I-II. Synergistic with saw palmetto in urinary support protocols (complementary mechanisms). Advise PSA disclosure to physicians as with all BPH-supportive agents.",
+  "patientGuidance": "This formulation uses nettle root specifically \u2014 which has different properties from nettle leaf. Take with food. If you take diuretic medications, inform your physician.",
+  "linkedPublications": [
+    "rambams-guide-to-health"
+  ]
+}

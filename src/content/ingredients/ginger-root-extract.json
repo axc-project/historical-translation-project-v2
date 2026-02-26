@@ -1,0 +1,38 @@
+{
+  "slug": "ginger-root-extract",
+  "name": "Ginger Root Extract",
+  "latinName": "Zingiber officinale",
+  "standardization": "5% Gingerols",
+  "domain": "metabolic",
+  "domainLabel": "Metabolic Terrain",
+  "formulas": ["digestive-metabolic-core"],
+  "historicalUse": "Ginger is among the most universally documented medicinal plants in human history. It appears in the Charaka Samhita (Ayurvedic, ~300 BCE), the Shennong Bencao Jing (Chinese, ~200 CE), and extensively in Arabic medicine — Ibn Sina devotes considerable attention to zanjabil in the Canon, prescribing it for digestive weakness, nausea, joint pain, and as a warming agent for cold temperaments. Rambam's Treatise on Asthma specifically recommends ginger preparations for respiratory and digestive complaints and it appears in his pharmaceutical compendium. The 16th-century Ottoman physician Gevrekzade lists ginger among essential warming digestives.",
+  "classicalSources": ["Ibn Sina — Canon of Medicine", "Maimonides — Treatise on Asthma", "Charaka Samhita", "Shennong Bencao Jing"],
+  "modernEvidence": "Ginger is one of the most extensively studied botanical agents. Over 100 clinical trials have evaluated its efficacy in nausea (chemotherapy-induced, pregnancy, motion sickness), gastric motility, inflammation, and pain. Active constituents include gingerols (fresh root), shogaols (dried/processed), and zingerone. Mechanistically, ginger acts as a 5-HT3 antagonist and NK1 receptor antagonist, explaining antiemetic effects. It also inhibits COX-1/COX-2 and 5-LOX pathways.",
+  "mechanisms": [
+    "Antiemetic: 5-HT3 and NK1 receptor antagonism in GI tract and CNS",
+    "Prokinetic: accelerates gastric emptying, reduces intestinal transit time",
+    "Anti-inflammatory: COX-1/COX-2 and 5-LOX pathway inhibition via gingerols/shogaols",
+    "Thermogenic: activates TRPV1 receptors, increases metabolic heat production",
+    "Carminative: relaxes lower esophageal sphincter and intestinal smooth muscle"
+  ],
+  "benefits": [
+    "Supports normal gastric motility and comfortable digestion",
+    "Supports balanced inflammatory response",
+    "Promotes comfortable post-meal experience",
+    "Supports healthy nausea response"
+  ],
+  "safetyProfile": "Excellent safety profile at food and therapeutic doses. GRAS status (FDA). Mild heartburn or reflux possible in sensitive individuals at high doses.",
+  "contraindications": [
+    "Caution in patients with coagulation disorders at high doses (>4g/day)",
+    "Caution pre-surgery — theoretical antiplatelet activity at high doses"
+  ],
+  "drugInteractions": [
+    "Anticoagulants (warfarin, aspirin) — theoretical additive antiplatelet effect at high doses; monitor INR",
+    "Diabetes medications — may have additive glucose-lowering effect; monitor blood glucose",
+    "Nifedipine and cardiac medications — case reports of potentiation at high doses"
+  ],
+  "physicianNotes": "Among the safest and best-evidenced botanical agents. Clinically appropriate across a wide patient population. At 150mg standardized extract (5% gingerols) per serving, well within safe limits even for patients on anticoagulation if monitored. Notably useful in patients with post-operative or chemotherapy-related nausea (at higher doses).",
+  "patientGuidance": "Can be taken with or without food. Mild warming sensation in the GI tract is normal and expected. If you take blood thinners, inform your physician.",
+  "linkedPublications": ["rambams-guide-to-health"]
+}

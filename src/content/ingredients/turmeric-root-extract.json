@@ -1,0 +1,47 @@
+{
+  "slug": "turmeric-root-extract",
+  "name": "Turmeric Root Extract",
+  "latinName": "Curcuma longa",
+  "standardization": "95% Curcuminoids",
+  "domain": "inflammatory",
+  "domainLabel": "Inflammatory Balance",
+  "formulas": [
+    "cellular-resilience-complex",
+    "cellular-basic"
+  ],
+  "historicalUse": "Turmeric has been in continuous medicinal use for over 4,000 years across Indian, Chinese, and Arabic civilizations. Ibn Sina described kurkum as a wound healer and liver tonic. Rambam referenced it in his pharmaceutical writings for hepatic and digestive support. In Ayurvedic tradition it is considered rasayana \u2014 a rejuvenating agent for longevity.",
+  "classicalSources": [
+    "Ibn Sina \u2014 Canon of Medicine",
+    "Charaka Samhita",
+    "Sushruta Samhita"
+  ],
+  "modernEvidence": "Curcuminoids, primarily curcumin, demethoxycurcumin, and bisdemethoxycurcumin, are among the most extensively researched phytochemicals in nutritional science with over 12,000 published studies. Key actions include NF-kB inhibition, Nrf2 activation, and modulation of inflammatory eicosanoid pathways. Bioavailability is significantly enhanced by piperine co-administration.",
+  "mechanisms": [
+    "NF-kB pathway inhibition reducing pro-inflammatory cytokine transcription",
+    "Nrf2 pathway activation upregulating endogenous antioxidant enzymes (HO-1, NQO1)",
+    "COX-2 and 5-LOX inhibition reducing prostaglandin and leukotriene synthesis",
+    "STAT3 signaling modulation supporting cellular homeostasis"
+  ],
+  "benefits": [
+    "Supports healthy inflammatory balance at the cellular level",
+    "Supports antioxidant enzyme production",
+    "Promotes healthy liver function",
+    "Supports joint comfort and mobility"
+  ],
+  "safetyProfile": "Excellent safety profile. GRAS status. Well tolerated at up to 8g/day in clinical studies. Mild GI discomfort at very high doses.",
+  "contraindications": [
+    "Bile duct obstruction \u2014 curcumin stimulates bile secretion",
+    "Gallstone disease \u2014 consult physician",
+    "Caution pre-surgery due to antiplatelet properties at high doses"
+  ],
+  "drugInteractions": [
+    "Anticoagulants \u2014 additive antiplatelet effect at high doses; monitor INR",
+    "Chemotherapy agents \u2014 consult oncologist; curcumin may modulate efficacy of certain agents",
+    "Talinolol and P-glycoprotein substrates \u2014 piperine combination may increase absorption"
+  ],
+  "physicianNotes": "Clinically appropriate across broad patient populations. In oncology supportive care contexts, consult treating oncologist regarding timing relative to cytotoxic agents. Bioavailability is formulation-dependent \u2014 standardized 95% curcuminoid extract with piperine provides superior bioavailability over raw turmeric.",
+  "patientGuidance": "Take with a fat-containing meal for optimal absorption. If you are on blood thinners or undergoing cancer treatment, inform your physician before use.",
+  "linkedPublications": [
+    "rambams-guide-to-health"
+  ]
+}

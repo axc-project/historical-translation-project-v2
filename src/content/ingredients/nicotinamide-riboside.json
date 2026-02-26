@@ -1,0 +1,40 @@
+{
+  "slug": "nicotinamide-riboside",
+  "name": "Nicotinamide Riboside (NR)",
+  "latinName": "Nicotinamide riboside chloride",
+  "standardization": "Tru Niagen\u00ae GRAS certified",
+  "domain": "longevity",
+  "domainLabel": "Longevity & Mitochondrial Resilience",
+  "formulas": [
+    "longevity-glynac-powder"
+  ],
+  "historicalUse": "Nicotinamide riboside is a form of vitamin B3 (niacin) found in trace amounts in milk and yeast. As an isolated compound it has no classical herbal history, but niacin-rich foods \u2014 meat, fish, fermented foods \u2014 were recognized across medical traditions for their role in vitality and energy. The molecular understanding of NAD+ as the cellular currency of energy metabolism is a 20th-century discovery that illuminates why these classical dietary recommendations supported energy and longevity.",
+  "classicalSources": [
+    "Empirical parallels in classical dietary recommendations for vitality"
+  ],
+  "modernEvidence": "NR is the most bioavailable oral precursor to NAD+, a coenzyme that declines by 50%+ with age. NAD+ is essential for all mitochondrial energy production, DNA repair, and sirtuin activation. Tru Niagen\u00ae (NR chloride) is the only NR form with GRAS status and the most extensively clinically studied NR product. Human trials demonstrate consistent 40\u201360% increases in blood NAD+ levels. Downstream effects include sirtuin activation, improved mitochondrial function, and DNA repair enhancement.",
+  "mechanisms": [
+    "NAD+ precursor \u2014 NR \u2192 NMN \u2192 NAD+ via Preiss-Handler and salvage pathways",
+    "Sirtuin activation \u2014 NAD+-dependent SIRT1/3/6 regulate gene expression and metabolic health",
+    "PARP activity support \u2014 DNA repair enzymes require NAD+ as substrate",
+    "Mitochondrial biogenesis \u2014 NAD+/SIRT1/PGC-1\u03b1 axis stimulates new mitochondrial synthesis",
+    "CD38 regulation \u2014 reducing CD38 activity preserves cellular NAD+ pools"
+  ],
+  "benefits": [
+    "Supports healthy NAD+ levels associated with aging",
+    "Supports mitochondrial energy production",
+    "Supports cellular DNA repair capacity",
+    "Contributes to sirtuin-mediated longevity pathways"
+  ],
+  "safetyProfile": "Excellent safety profile. Tru Niagen\u00ae GRAS status. Well tolerated with minimal adverse effects in clinical trials. Unlike niacin (nicotinic acid), NR does not cause flushing.",
+  "contraindications": [
+    "Caution in patients with active cancer \u2014 NAD+ elevation may theoretically support cancer cell metabolism; consult oncologist"
+  ],
+  "drugInteractions": [
+    "Chemotherapy \u2014 consult oncologist; theoretical concern regarding NAD+ support of cancer cell DNA repair",
+    "No significant drug interactions identified in clinical studies to date"
+  ],
+  "physicianNotes": "Tru Niagen\u00ae is the preferred form \u2014 GRAS status, most clinical data, patent-protected stability. Monitor in oncology patients \u2014 theoretical concern about NAD+ supporting cancer cell metabolic activity warrants oncologist consultation before use. No flushing effect unlike standard niacin. Highly appropriate in anti-aging and mitochondrial medicine protocols.",
+  "patientGuidance": "Take in the morning \u2014 NR supports energy metabolism and may be stimulating for some individuals. Unlike regular niacin (vitamin B3), NR does not cause skin flushing. If you are undergoing cancer treatment, discuss with your oncologist before use.",
+  "linkedPublications": []
+}

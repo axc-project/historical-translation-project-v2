@@ -1,0 +1,43 @@
+{
+  "slug": "lions-mane-extract",
+  "name": "Lion's Mane Extract",
+  "latinName": "Hericium erinaceus",
+  "standardization": "30% Beta-glucans, fruiting body",
+  "domain": "cognitive",
+  "domainLabel": "Cognitive Aging Support",
+  "formulas": [
+    "neuro-resilience-module"
+  ],
+  "historicalUse": "Lion's Mane mushroom has been used in Chinese and Japanese traditional medicine for centuries, appearing in the Shennong Bencao Jing and subsequent Chinese materia medica as a tonic for the stomach, nervous system, and mental vitality. Buddhist monks consumed it to enhance meditative clarity. It is classified in Chinese medicine as a shen tonic \u2014 a medicine that nourishes the spirit and calms the mind.",
+  "classicalSources": [
+    "Shennong Bencao Jing",
+    "Chinese Buddhist monastic dietary medicine"
+  ],
+  "modernEvidence": "Lion's Mane contains hericenones (from fruiting body) and erinacines (from mycelium) that stimulate Nerve Growth Factor (NGF) synthesis. Fruiting body extract is preferred for hericenone content. Human clinical trials demonstrate improvements in mild cognitive impairment, depression, anxiety, and sleep quality. Erinacines cross the blood-brain barrier and directly stimulate NGF in the CNS.",
+  "mechanisms": [
+    "NGF stimulation \u2014 hericenones upregulate endogenous nerve growth factor synthesis",
+    "BDNF upregulation \u2014 promotes neuroplasticity and synaptic density",
+    "Myelination support \u2014 NGF-dependent myelin repair mechanisms",
+    "Anti-inflammatory \u2014 beta-glucans modulate microglial activation",
+    "Neurogenesis \u2014 stimulates hippocampal neurogenesis in animal models"
+  ],
+  "benefits": [
+    "Supports neuroplasticity and cognitive resilience",
+    "Supports healthy mood and mental clarity",
+    "Contributes to nerve health and neurological function",
+    "Supports healthy sleep architecture"
+  ],
+  "safetyProfile": "Excellent safety profile. Fruiting body extract is preferred over mycelium-on-grain products (which contain significant starch content). Rare reports of skin itchiness in sensitive individuals.",
+  "contraindications": [
+    "Mushroom allergy \u2014 theoretical cross-reactivity",
+    "Caution in patients with known bleeding disorders at high doses"
+  ],
+  "drugInteractions": [
+    "Anticoagulants \u2014 mild antiplatelet activity; monitor",
+    "Diabetes medications \u2014 beta-glucans have hypoglycemic properties; monitor glucose",
+    "Immunosuppressants \u2014 immune-modulating beta-glucans; theoretical concern in transplant patients"
+  ],
+  "physicianNotes": "Specify fruiting body extract standardized to beta-glucan content \u2014 mycelium-on-grain products have poor active compound density. Clinically appropriate in MCI, neuroprotective protocols, and cognitive aging support. Particularly promising for nerve regeneration support in peripheral neuropathy (ongoing research).",
+  "patientGuidance": "Ensure you are taking fruiting body extract (as specified in this formulation) rather than mycelium powder, which is significantly less potent. Effects on cognition typically develop over 4\u20138 weeks.",
+  "linkedPublications": []
+}

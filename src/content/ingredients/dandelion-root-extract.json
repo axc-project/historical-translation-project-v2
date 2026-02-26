@@ -1,0 +1,38 @@
+{
+  "slug": "dandelion-root-extract",
+  "name": "Dandelion Root Extract",
+  "latinName": "Taraxacum officinale",
+  "standardization": "4:1 extract",
+  "domain": "metabolic",
+  "domainLabel": "Metabolic Terrain",
+  "formulas": ["digestive-metabolic-core"],
+  "historicalUse": "Taraxacum was documented in Tang Dynasty Chinese medicine (7th century CE) and entered Arabic-European medicine through the writings of Ibn Sina and later the Syrian physician Ibn Butlan. The 10th-century Arabic text Tacuinum Sanitatis listed dandelion root among liver-supportive herbs. In medieval European herbalism it was called dens leonis and prescribed by Hildegard von Bingen for digestive sluggishness and skin conditions attributed to hepatic congestion.",
+  "classicalSources": ["Ibn Sina — Canon of Medicine", "Ibn Butlan — Tacuinum Sanitatis", "Hildegard von Bingen — Physica"],
+  "modernEvidence": "Dandelion root contains inulin (a prebiotic fructooligosaccharide), taraxacin and taraxacerin (bitter sesquiterpene lactones), and phytosterols. Clinical and in vitro research supports its role in promoting bile flow, exerting mild diuretic activity without potassium depletion, and modulating inflammatory cytokine expression in hepatic tissue.",
+  "mechanisms": [
+    "Choleretic and cholagogue: bitter lactones stimulate bile secretion and gallbladder contraction",
+    "Prebiotic: inulin selectively feeds Lactobacillus and Bifidobacterium species",
+    "Mild aquaretic: promotes renal water excretion without electrolyte imbalance",
+    "Anti-inflammatory: taraxinic acid derivatives modulate NF-κB pathway activity"
+  ],
+  "benefits": [
+    "Supports healthy liver and gallbladder function",
+    "Promotes normal digestive transit and microbiome balance",
+    "Supports healthy fluid balance and kidney function",
+    "Contributes to comfortable post-meal digestive experience"
+  ],
+  "safetyProfile": "Generally recognized as safe (GRAS status, FDA). Well tolerated at standard extract doses. Mild laxative effect possible at higher doses.",
+  "contraindications": [
+    "Bile duct obstruction",
+    "Known allergy to Asteraceae family",
+    "Ragweed allergy — cross-reactivity possible"
+  ],
+  "drugInteractions": [
+    "Diuretic medications — additive aquaretic effect; monitor fluid balance",
+    "Lithium — increased renal clearance may alter lithium levels; consult prescriber",
+    "Quinolone antibiotics — potential reduced absorption if taken simultaneously"
+  ],
+  "physicianNotes": "Safe and appropriate as adjunct support in metabolic protocols. Monitor potassium in patients on concurrent diuretic therapy. Avoid in confirmed cholelithiasis without physician oversight.",
+  "patientGuidance": "Take with meals. If you take diuretic medications or blood pressure medications, inform your doctor. Mild increase in urinary frequency is expected and normal.",
+  "linkedPublications": ["rambams-guide-to-health"]
+}

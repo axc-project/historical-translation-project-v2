@@ -1,0 +1,45 @@
+{
+  "slug": "quercetin-phytosome",
+  "name": "Quercetin Phytosome",
+  "latinName": "Sophora japonica \u2014 phospholipid complex",
+  "standardization": "Phospholipid complex",
+  "domain": "inflammatory",
+  "domainLabel": "Inflammatory Balance",
+  "formulas": [
+    "cellular-advanced"
+  ],
+  "historicalUse": "See Quercetin Dihydrate monograph for full historical context. The phytosome form is a modern bioavailability-enhancement technology applied to the same active compound. Quercetin-rich plants \u2014 onion, elder, buckwheat \u2014 have been used across Greek, Roman, Arabic, and Chinese medicinal traditions for millennia.",
+  "classicalSources": [
+    "See Quercetin Dihydrate monograph"
+  ],
+  "modernEvidence": "Quercetin phytosome (quercetin bound to phosphatidylcholine) achieves 20-50x greater oral bioavailability compared to standard quercetin aglycone, enabling clinically meaningful plasma concentrations at significantly lower doses. Bioavailability data from comparative pharmacokinetic studies supports its use in conditions requiring measurable serum quercetin levels. Senolytic activity, mast cell stabilization, and Nrf2 activation are preserved with enhanced tissue delivery.",
+  "mechanisms": [
+    "Enhanced bioavailability \u2014 phospholipid complex enables 20-50x greater systemic absorption vs standard quercetin",
+    "Mast cell stabilization \u2014 inhibits IgE-mediated degranulation and histamine release",
+    "NLRP3 inflammasome inhibition \u2014 reduces IL-1\u03b2 and IL-18 processing",
+    "Senolytic activity \u2014 selectively induces apoptosis in senescent cells at achievable plasma concentrations",
+    "Zinc ionophore function \u2014 facilitates intracellular zinc transport",
+    "Nrf2 activation \u2014 upregulates glutathione synthesis and antioxidant enzymes"
+  ],
+  "benefits": [
+    "Supports healthy inflammatory balance with superior tissue bioavailability",
+    "Supports seasonal respiratory and allergic comfort",
+    "Contributes to cellular senescence support pathways",
+    "Supports antioxidant defense at effective tissue concentrations"
+  ],
+  "safetyProfile": "Excellent safety profile. Phytosome form is well tolerated. Same safety considerations as quercetin dihydrate apply, with note that phytosome achieves higher plasma levels \u2014 interactions are more clinically relevant than with standard quercetin.",
+  "contraindications": [
+    "Estrogen-sensitive conditions \u2014 quercetin has mild estrogenic activity",
+    "Pregnancy \u2014 insufficient data",
+    "Soy allergy \u2014 verify phospholipid source"
+  ],
+  "drugInteractions": [
+    "Cyclosporine \u2014 quercetin inhibits CYP3A4; phytosome achieves higher plasma levels increasing interaction significance; monitor cyclosporine trough levels",
+    "Warfarin \u2014 monitor INR; phytosome form may have greater interaction potential than standard quercetin",
+    "Fluoroquinolone antibiotics \u2014 separate by 2+ hours",
+    "Tamoxifen \u2014 potential CYP2C8 interaction"
+  ],
+  "physicianNotes": "The enhanced bioavailability of phytosome quercetin makes drug interactions more clinically significant than with standard quercetin. Exercise heightened caution in transplant patients on cyclosporine \u2014 even modest CYP3A4 inhibition at higher plasma quercetin concentrations may alter cyclosporine trough levels meaningfully. Specify phospholipid source for soy-allergic patients.",
+  "patientGuidance": "Take with meals. If you take immunosuppressant medications, blood thinners, or antibiotics, inform your physician. This is an enhanced-absorption form of quercetin \u2014 a smaller amount achieves more than standard quercetin supplements.",
+  "linkedPublications": []
+}

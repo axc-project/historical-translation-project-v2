@@ -1,0 +1,69 @@
+{
+  "title": "Digestive Metabolic Core\u2122",
+  "slug": "digestive-metabolic-core",
+  "type": "core",
+  "form": "Capsules",
+  "tagline": "Foundational digestive and metabolic terrain support",
+  "purpose": "A foundational formulation designed to support digestive comfort, healthy bile flow, and metabolic enzyme activity. Drawing on classical Galenic and Rambam-era pharmacopoeia and validated by contemporary phytochemistry research.",
+  "icon": "/assets/illustrations/digestive-metabolic.svg",
+  "supports": [
+    "Normal digestive enzyme secretion and gastrointestinal comfort",
+    "Healthy bile production and hepatic metabolic function",
+    "Balanced gut microenvironment",
+    "Normal post-meal comfort and digestive transit",
+    "Metabolic terrain integrity as a foundation for systemic balance"
+  ],
+  "ingredients": [
+    {
+      "name": "Artichoke Leaf Extract",
+      "form": "5% Cynarin",
+      "amount": "300 mg"
+    },
+    {
+      "name": "Dandelion Root Extract",
+      "form": "4:1",
+      "amount": "200 mg"
+    },
+    {
+      "name": "Gentian Root",
+      "form": "Dried herb powder",
+      "amount": "150 mg"
+    },
+    {
+      "name": "Ginger Root Extract",
+      "form": "5% Gingerols",
+      "amount": "150 mg"
+    },
+    {
+      "name": "Black Pepper Extract",
+      "form": "BioPerine\u00ae 95% Piperine",
+      "amount": "5 mg"
+    }
+  ],
+  "dosing": [
+    {
+      "time": "Morning",
+      "amount": "2 capsules",
+      "note": "With first meal"
+    },
+    {
+      "time": "Evening",
+      "amount": "1 capsule",
+      "note": "With evening meal"
+    }
+  ],
+  "safetyNotes": [
+    "Consult a qualified healthcare practitioner before use if pregnant, nursing, or managing any health condition.",
+    "Not recommended for individuals with known bile duct obstruction.",
+    "Discontinue and consult a clinician if GI discomfort occurs.",
+    "Keep out of reach of children."
+  ],
+  "suitedFor": [
+    "Adults seeking to support digestive comfort and metabolic regularity",
+    "Individuals with a history of heavy or rich dietary patterns",
+    "Those seeking a foundational metabolic terrain formulation as part of a structured wellness program"
+  ],
+  "systemRole": "This is one of three Core formulations within the HTP Wellness System. It is intended as the metabolic and digestive foundation upon which Module formulations may be layered, under appropriate guidance.",
+  "bottleImage": "/assets/bottles/digestive-metabolic-core.png",
+  "archeviaBrand": true
+}

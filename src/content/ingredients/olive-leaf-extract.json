@@ -1,0 +1,47 @@
+{
+  "slug": "olive-leaf-extract",
+  "name": "Olive Leaf Extract",
+  "latinName": "Olea europaea",
+  "standardization": "20% Oleuropein",
+  "domain": "circulatory",
+  "domainLabel": "Circulatory Integrity",
+  "formulas": [
+    "circulatory-vitality-core"
+  ],
+  "historicalUse": "Olive is among the most medically significant plants in Mediterranean, Arabic, and Judaic traditions. Rambam devoted considerable attention to olive oil and olive preparations throughout his dietary writings, noting their effects on digestion, skin, and cardiac health. Ibn Sina classified olive leaf preparations for fever, inflammation, and wound healing. Olive leaves appear in the Ebers Papyrus (ancient Egyptian, ~1550 BCE) and throughout Greco-Roman botanical medicine.",
+  "classicalSources": [
+    "Maimonides \u2014 dietary and medical writings",
+    "Ibn Sina \u2014 Canon of Medicine",
+    "Dioscorides \u2014 De Materia Medica",
+    "Ebers Papyrus"
+  ],
+  "modernEvidence": "Olive leaf extract standardized to oleuropein has demonstrated antihypertensive, antimicrobial, and anti-atherosclerotic effects in clinical research. The OLIVUS-ex-vivo study and multiple RCTs show significant reductions in systolic and diastolic blood pressure comparable to captopril in mild-to-moderate hypertension. Oleuropein and hydroxytyrosol inhibit LDL oxidation, reduce endothelial inflammation, and exhibit antiviral activity.",
+  "mechanisms": [
+    "ACE inhibition \u2014 oleuropein reduces angiotensin-converting enzyme activity",
+    "Calcium channel blockade \u2014 reduces vascular smooth muscle contraction",
+    "LDL antioxidation \u2014 hydroxytyrosol is among the most potent natural antioxidants identified",
+    "Anti-inflammatory \u2014 oleuropein inhibits NF-kB and reduces TNF-alpha, IL-6",
+    "Antiviral \u2014 interferes with viral protein synthesis and cell entry"
+  ],
+  "benefits": [
+    "Supports healthy blood pressure already within normal range",
+    "Supports healthy LDL profile and vascular integrity",
+    "Contributes to immune terrain support",
+    "Supports endothelial antioxidant defense"
+  ],
+  "safetyProfile": "Excellent safety profile. Well tolerated. Rare reports of mild headache at initiation (detoxification reaction described in some clinical reports).",
+  "contraindications": [
+    "Caution in patients on antihypertensive medications \u2014 additive effect",
+    "Diabetes \u2014 monitor glucose as oleuropein has insulin-sensitizing properties"
+  ],
+  "drugInteractions": [
+    "Antihypertensive medications \u2014 additive blood pressure-lowering effect; monitor BP",
+    "Diabetes medications \u2014 additive glucose-lowering effect; monitor blood glucose",
+    "Anticoagulants \u2014 mild antiplatelet activity; monitor INR"
+  ],
+  "physicianNotes": "Well-evidenced antihypertensive and cardiovascular botanical. Consider in patients with prehypertension or as adjunct in mild hypertension alongside lifestyle modification. Monitor blood pressure when initiating in patients on antihypertensive therapy. Oleuropein content should be standardized for clinical reliability.",
+  "patientGuidance": "If you take blood pressure medications, monitor your blood pressure when starting this formulation and inform your physician. A mild headache in the first week occasionally occurs and typically resolves.",
+  "linkedPublications": [
+    "rambams-guide-to-health"
+  ]
+}

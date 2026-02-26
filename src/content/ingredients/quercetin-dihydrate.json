@@ -1,0 +1,44 @@
+{
+  "slug": "quercetin-dihydrate",
+  "name": "Quercetin Dihydrate",
+  "latinName": "Sophora japonica / Allium cepa",
+  "standardization": "Pharmaceutical grade",
+  "domain": "inflammatory",
+  "domainLabel": "Inflammatory Balance",
+  "formulas": [
+    "cellular-resilience-complex"
+  ],
+  "historicalUse": "Quercetin-rich plants \u2014 onion, elder, buckwheat \u2014 have been used across Greek, Roman, Arabic, and Chinese medicinal traditions for millennia. Ibn Sina described onion preparations for respiratory inflammation and immune support. The flavonoid was isolated and characterized in the 20th century but its botanical sources appear in virtually every classical pharmacopoeia.",
+  "classicalSources": [
+    "Ibn Sina \u2014 Canon of Medicine",
+    "Dioscorides \u2014 De Materia Medica"
+  ],
+  "modernEvidence": "Quercetin is the most abundant dietary flavonoid and one of the most studied. Mechanisms include mast cell stabilization (anti-allergic), NLRP3 inflammasome inhibition, Nrf2 activation, and senolytic activity (elimination of senescent cells). Clinical trials show efficacy in allergic rhinitis, exercise-induced inflammation, and as a senolytic agent in combination with dasatinib.",
+  "mechanisms": [
+    "Mast cell membrane stabilization \u2014 inhibits histamine and leukotriene release",
+    "NLRP3 inflammasome inhibition \u2014 reduces IL-1\u03b2 and IL-18 maturation",
+    "Senolytic activity \u2014 selectively induces apoptosis in senescent cells",
+    "Zinc ionophore \u2014 facilitates intracellular zinc transport, supporting antiviral defense",
+    "Nrf2 pathway activation \u2014 upregulates HO-1 and glutathione synthesis"
+  ],
+  "benefits": [
+    "Supports healthy inflammatory signaling",
+    "Supports seasonal respiratory comfort",
+    "Contributes to cellular resilience and healthy aging",
+    "Supports antioxidant defense systems"
+  ],
+  "safetyProfile": "Well tolerated. GRAS status. Some reports of headache at very high doses (>1g/day). Dihydrate form improves stability and dissolution.",
+  "contraindications": [
+    "Caution in estrogen-sensitive conditions \u2014 quercetin has mild estrogenic activity in some studies",
+    "High doses not recommended during pregnancy (lack of safety data)"
+  ],
+  "drugInteractions": [
+    "Cyclosporine \u2014 quercetin inhibits CYP3A4; may increase cyclosporine levels",
+    "Warfarin \u2014 theoretical potentiation; monitor INR",
+    "Fluoroquinolone antibiotics \u2014 quercetin may reduce absorption if taken simultaneously; separate by 2 hours",
+    "Tamoxifen \u2014 potential interaction via CYP2C8 modulation"
+  ],
+  "physicianNotes": "Particularly useful in patients with allergic or inflammatory conditions. Senolytic properties are of interest in longevity medicine. Exercise caution in transplant patients on cyclosporine. Dihydrate form preferred for bioavailability over aglycone.",
+  "patientGuidance": "Take with meals. If you take immunosuppressant medications or blood thinners, inform your physician. Separate from antibiotic doses by at least 2 hours.",
+  "linkedPublications": []
+}

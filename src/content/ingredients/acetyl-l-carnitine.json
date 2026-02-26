@@ -1,0 +1,42 @@
+{
+  "slug": "acetyl-l-carnitine",
+  "name": "Acetyl-L-Carnitine HCl",
+  "latinName": "L-Carnitine acetyl ester",
+  "standardization": "Pharmaceutical grade",
+  "domain": "cognitive",
+  "domainLabel": "Cognitive Aging Support",
+  "formulas": [
+    "neuro-resilience-module"
+  ],
+  "historicalUse": "L-Carnitine was isolated from meat in 1905. Its acetylated form, acetyl-L-carnitine (ALCAR), was identified and characterized in the late 20th century. Classical medicine did not isolate this compound, but the broader concept of brain-nourishing foods and preparations \u2014 particularly meat broths and organ tissues rich in carnitine \u2014 appears in Arabic medical nutrition literature. Ibn Sina's recommendations for brain-supportive diets emphasized nutrient-dense animal foods consistent with high carnitine content.",
+  "classicalSources": [
+    "Ibn Sina \u2014 dietary recommendations for cognitive health in Canon of Medicine"
+  ],
+  "modernEvidence": "ALCAR crosses the blood-brain barrier and acts as an acetyl group donor for acetylcholine synthesis, supporting cholinergic neurotransmission. Multiple RCTs demonstrate improvement in cognitive function, memory, and mood in age-related cognitive decline, mild cognitive impairment (MCI), and diabetic neuropathy. It also supports mitochondrial fatty acid transport and has neuroprotective antioxidant properties.",
+  "mechanisms": [
+    "Acetylcholine precursor \u2014 donates acetyl group for ACh synthesis in cholinergic neurons",
+    "Mitochondrial fatty acid transport \u2014 facilitates long-chain fatty acid entry into mitochondria",
+    "Neuroprotection \u2014 reduces oxidative stress and apoptosis in neuronal tissue",
+    "NGF sensitization \u2014 enhances neuronal response to nerve growth factor",
+    "Myelination support \u2014 contributes to myelin sheath lipid metabolism"
+  ],
+  "benefits": [
+    "Supports cognitive function and mental clarity",
+    "Supports healthy memory and recall",
+    "Contributes to neurological energy metabolism",
+    "Supports mood and mental resilience"
+  ],
+  "safetyProfile": "Well tolerated. Mild GI discomfort in some individuals. Fishy odor in urine at high doses is benign and due to trimethylamine metabolite.",
+  "contraindications": [
+    "Hypothyroidism \u2014 may theoretically affect thyroid hormone metabolism at high doses",
+    "Seizure disorder \u2014 case reports of increased seizure activity; use with caution"
+  ],
+  "drugInteractions": [
+    "Warfarin \u2014 case reports of increased anticoagulant effect; monitor INR",
+    "Acenocoumarol \u2014 similar caution",
+    "Thyroid medications \u2014 monitor thyroid function"
+  ],
+  "physicianNotes": "Clinically appropriate in age-related cognitive decline, MCI, and diabetic neuropathy. Cholinergic mechanism means caution in patients on anticholinergic medications (opposing effects). Monitor INR in anticoagulated patients. Therapeutic dose range 500\u20132000mg/day.",
+  "patientGuidance": "Best taken in the morning or early afternoon due to potential energizing effects. A harmless fishy odor in urine may occur \u2014 this is normal. If you take blood thinners, inform your physician.",
+  "linkedPublications": []
+}

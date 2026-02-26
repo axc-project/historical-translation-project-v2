@@ -1,0 +1,49 @@
+{
+  "slug": "egcg-green-tea",
+  "name": "EGCG (Green Tea)",
+  "latinName": "Camellia sinensis",
+  "standardization": "98% standardized",
+  "domain": "cellular",
+  "domainLabel": "Cellular Resilience During Physiological Stress",
+  "formulas": [
+    "cellular-advanced"
+  ],
+  "historicalUse": "Green tea has been consumed as both a beverage and a medicine in China and Japan for over 4,000 years. It appears in the Shennong Bencao Jing as a remedy for fatigue, mental alertness, and detoxification. Japanese Zen Buddhist monks used it to maintain alertness during long meditation sessions. Arabic physicians who encountered it through trade routes documented its stimulant and digestive properties. The specific catechin EGCG was isolated in the 20th century but the plant's medicinal use spans millennia.",
+  "classicalSources": [
+    "Shennong Bencao Jing",
+    "Japanese Buddhist monastic medicine",
+    "Chinese Materia Medica (Bencao Gangmu, Li Shizhen)"
+  ],
+  "modernEvidence": "Epigallocatechin gallate (EGCG) is the most abundant and bioactive catechin in green tea, present at 98% in highly standardized extracts. It is one of the most studied polyphenols in nutritional science with over 5,000 published studies. Key documented activities include inhibition of cancer cell proliferation (multiple pathways), cardiovascular protection, metabolic support, and neuroprotection. At 98% standardization, dosing precision and efficacy are maximized versus crude extracts.",
+  "mechanisms": [
+    "AMPK activation \u2014 improves cellular energy sensing and metabolic flexibility",
+    "Nrf2 pathway activation \u2014 upregulates endogenous antioxidant enzyme systems",
+    "EGFR and VEGF inhibition \u2014 modulates cellular growth factor signaling",
+    "Catechol-O-methyltransferase (COMT) inhibition \u2014 extends catecholamine availability",
+    "Proteasome inhibition \u2014 supports cellular protein quality control",
+    "NF-kB suppression \u2014 reduces inflammatory cytokine transcription"
+  ],
+  "benefits": [
+    "Supports cellular antioxidant defense at the molecular level",
+    "Supports healthy metabolic function and energy balance",
+    "Contributes to cardiovascular terrain support",
+    "Supports healthy inflammatory balance"
+  ],
+  "safetyProfile": "Well tolerated at standard doses. High-dose isolated EGCG (>800mg/day) has been associated with rare hepatotoxicity \u2014 primarily from concentrated supplements taken on empty stomach. At recommended doses with meals, risk is minimal. Green tea EGCG has superior safety to some other concentrated polyphenols.",
+  "contraindications": [
+    "Liver disease \u2014 high-dose concentrated EGCG with caution; monitor LFTs",
+    "Iron deficiency anemia \u2014 EGCG reduces non-heme iron absorption",
+    "Pregnancy at high doses \u2014 caffeine content (if present) and high-dose catechins not recommended"
+  ],
+  "drugInteractions": [
+    "Warfarin \u2014 EGCG may reduce anticoagulant effect (contains vitamin K activity); monitor INR",
+    "Iron supplements \u2014 reduce absorption; separate doses by 2+ hours",
+    "Bortezomib (cancer medication) \u2014 EGCG may inhibit this proteasome inhibitor; avoid combination",
+    "Stimulant medications \u2014 if caffeine is present in extract, additive CNS stimulation"
+  ],
+  "physicianNotes": "Specify that this formulation uses decaffeinated/caffeine-free EGCG for patient tolerability. High-dose isolated EGCG should always be taken with food to reduce hepatotoxicity risk. Monitor liver function in patients taking concentrated EGCG long-term. In oncology contexts, the EGCG-bortezomib interaction is clinically significant \u2014 avoid in patients on this regimen.",
+  "patientGuidance": "Take with food \u2014 never on an empty stomach at concentrated doses. If you have liver conditions or take blood thinners, inform your physician. Separate from iron supplements by at least 2 hours.",
+  "linkedPublications": [
+    "cancer-across-time-and-civilizations"
+  ]
+}

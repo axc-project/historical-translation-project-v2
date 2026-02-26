@@ -1,0 +1,46 @@
+{
+  "slug": "turmeric-phytosome",
+  "name": "Turmeric Phytosome",
+  "latinName": "Curcuma longa \u2014 phospholipid complex",
+  "standardization": "Meriva\u00ae BCM-95 curcumin-phospholipid complex",
+  "domain": "inflammatory",
+  "domainLabel": "Inflammatory Balance",
+  "formulas": [
+    "cellular-advanced"
+  ],
+  "historicalUse": "Turmeric phytosome is a modern bioavailability-enhanced form of turmeric curcuminoids. For historical use, see the Turmeric Root Extract monograph. The phytosome technology \u2014 binding curcuminoids to phosphatidylcholine \u2014 was developed in Italy by Indena S.p.A. to address the notoriously poor oral bioavailability of standard curcumin extracts, a limitation that may have reduced the efficacy of classical curcumin-rich preparations.",
+  "classicalSources": [
+    "See Turmeric Root Extract monograph for full historical context"
+  ],
+  "modernEvidence": "Meriva\u00ae (curcumin-phosphatidylcholine phytosome) demonstrates 29-fold greater bioavailability than standard 95% curcuminoid extract in comparative pharmacokinetic studies. Multiple clinical trials using Meriva\u00ae specifically have shown significant improvements in joint pain, mobility, and inflammatory markers (CRP, IL-6) in osteoarthritis, inflammatory bowel disease, and post-exercise recovery. The phospholipid matrix facilitates lymphatic absorption, bypassing hepatic first-pass metabolism.",
+  "mechanisms": [
+    "Superior bioavailability \u2014 phospholipid complex enables 29x greater curcuminoid absorption",
+    "Lymphatic uptake pathway \u2014 phytosome matrix facilitates absorption via intestinal lymphatics",
+    "NF-kB inhibition \u2014 same anti-inflammatory pathway as standard curcumin at lower doses",
+    "COX-2 and 5-LOX inhibition \u2014 reduces prostaglandin and leukotriene synthesis",
+    "Nrf2 activation \u2014 upregulates endogenous antioxidant defense systems"
+  ],
+  "benefits": [
+    "Supports healthy joint comfort and mobility",
+    "Supports balanced inflammatory response with superior bioavailability",
+    "Contributes to post-exercise recovery and tissue comfort",
+    "Supports antioxidant defense at effective serum concentrations"
+  ],
+  "safetyProfile": "Excellent safety profile. Meriva\u00ae is the most clinically studied phytosome form. No significant adverse effects in clinical trials. Preferred over standard curcumin in patients with absorption concerns.",
+  "contraindications": [
+    "Bile duct obstruction",
+    "Gallstone disease \u2014 consult physician",
+    "Caution pre-surgery \u2014 antiplatelet activity",
+    "Soy allergy \u2014 phosphatidylcholine may be soy-derived; verify source"
+  ],
+  "drugInteractions": [
+    "Anticoagulants \u2014 additive antiplatelet effect; monitor INR",
+    "Chemotherapy agents \u2014 consult oncologist; curcumin may modulate efficacy",
+    "CYP3A4 substrates \u2014 high-dose curcuminoids may inhibit CYP3A4"
+  ],
+  "physicianNotes": "Meriva\u00ae is the preferred clinical form of curcumin for conditions requiring measurable serum curcuminoid levels. The 29-fold bioavailability advantage means effective clinical doses are achievable without the very high gram-level doses needed with standard extracts. Specify phospholipid source (soy vs sunflower) for patients with soy allergy.",
+  "patientGuidance": "This is an advanced form of turmeric that your body can absorb much more effectively than standard turmeric supplements. Take with a meal containing some fat for best results.",
+  "linkedPublications": [
+    "rambams-guide-to-health"
+  ]
+}

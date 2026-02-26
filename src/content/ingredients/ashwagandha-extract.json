@@ -1,0 +1,48 @@
+{
+  "slug": "ashwagandha-extract",
+  "name": "Ashwagandha Extract",
+  "latinName": "Withania somnifera",
+  "standardization": "KSM-66\u00ae 5% withanolides",
+  "domain": "cognitive",
+  "domainLabel": "Cognitive Aging Support",
+  "formulas": [
+    "neuro-resilience-module"
+  ],
+  "historicalUse": "Ashwagandha is a foundational rasayana herb in Ayurvedic medicine, documented in Charaka Samhita as a premier adaptogen for strength, vitality, and cognitive resilience. Ibn Sina referenced Withania (under the Arabic name ubab) in the Canon for its strengthening and sleep-promoting properties. It has been in continuous medical use for over 3,000 years across South Asian and Middle Eastern traditions.",
+  "classicalSources": [
+    "Charaka Samhita",
+    "Sushruta Samhita",
+    "Ibn Sina \u2014 Canon of Medicine (ubab)"
+  ],
+  "modernEvidence": "KSM-66\u00ae ashwagandha (5% withanolides, full-spectrum root extract) is the most clinically validated ashwagandha form with 24+ clinical trials. Evidence supports significant cortisol reduction, improvement in stress and anxiety scores (GAD-7), testosterone support in men, improvement in VO2 max, and neuroprotection. Withanolides modulate HPA axis reactivity and have GABA-mimetic anxiolytic properties.",
+  "mechanisms": [
+    "HPA axis modulation \u2014 reduces cortisol hypersecretion, normalizes stress response",
+    "GABA-mimetic activity \u2014 withanolides bind GABA-A receptors, promoting anxiolysis",
+    "Thyroid stimulation \u2014 supports T3/T4 synthesis (caution in hyperthyroid states)",
+    "Testosterone support \u2014 reduces SHBG and LH suppression via cortisol reduction",
+    "Neuroprotection \u2014 withanolides inhibit beta-amyloid aggregation and tau phosphorylation"
+  ],
+  "benefits": [
+    "Supports healthy stress response and cortisol balance",
+    "Promotes cognitive calm and mental resilience",
+    "Supports healthy sleep quality",
+    "Supports physical vitality and exercise recovery"
+  ],
+  "safetyProfile": "Excellent safety profile with KSM-66\u00ae. Rare reports of GI discomfort. Drowsiness possible \u2014 best taken in evening if sedation is a concern.",
+  "contraindications": [
+    "Hyperthyroidism or Graves' disease \u2014 ashwagandha stimulates thyroid hormone synthesis",
+    "Autoimmune conditions \u2014 theoretical immune-stimulating activity; caution in MS, lupus, rheumatoid arthritis",
+    "Pregnancy \u2014 may have uterotonic properties; avoid in pregnancy"
+  ],
+  "drugInteractions": [
+    "Thyroid medications \u2014 additive thyroid-stimulating effect; monitor TSH",
+    "Immunosuppressants \u2014 theoretical immune stimulation may oppose immunosuppression",
+    "Sedatives and benzodiazepines \u2014 additive CNS sedation possible",
+    "Diabetes medications \u2014 additive glucose-lowering effect; monitor blood glucose"
+  ],
+  "physicianNotes": "Avoid in hyperthyroid patients. Monitor TSH in patients on thyroid medications. Exercise caution in autoimmune disease patients on immunosuppression. KSM-66\u00ae is the preferred form \u2014 full-spectrum, milk-processed per traditional method, with the strongest clinical evidence base. Highly appropriate in HPA axis dysregulation, stress-related cognitive decline, and athletic performance support.",
+  "patientGuidance": "Can be taken morning or evening. Taking it in the evening may support sleep quality. If you have thyroid disease or take thyroid medication, consult your physician before use.",
+  "linkedPublications": [
+    "rambams-guide-to-health"
+  ]
+}

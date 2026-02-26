@@ -1,0 +1,42 @@
+{
+  "slug": "alpha-lipoic-acid",
+  "name": "Alpha Lipoic Acid",
+  "latinName": "Thioctic acid",
+  "standardization": "R-form (stabilized)",
+  "domain": "longevity",
+  "domainLabel": "Longevity & Mitochondrial Resilience",
+  "formulas": [
+    "cellular-resilience-complex"
+  ],
+  "historicalUse": "Alpha lipoic acid is an endogenous compound discovered in the 20th century, without classical historical use as an isolated compound. However, the metabolic and mitochondrial concepts it addresses \u2014 cellular vitality, oxidative balance, and hepatic energy metabolism \u2014 are extensively addressed in classical medicine through botanical surrogates. Its modern isolation from liver tissue in 1951 represents a case where contemporary science identified the active principle behind centuries of empirical liver-supportive botanical practice.",
+  "classicalSources": [
+    "Contemporary discovery \u2014 no direct classical precedent"
+  ],
+  "modernEvidence": "R-Alpha lipoic acid (R-ALA) is a mitochondrial coenzyme critical to the pyruvate dehydrogenase and alpha-ketoglutarate complexes. As a dietary supplement, R-ALA acts as a universal antioxidant (both fat and water soluble), regenerates vitamins C, E, and glutathione, and chelates heavy metals. Clinical applications include diabetic peripheral neuropathy (well evidenced), liver protection, and mitochondrial support. The R-form is the biologically active enantiomer.",
+  "mechanisms": [
+    "Mitochondrial coenzyme \u2014 essential cofactor in TCA cycle enzyme complexes",
+    "Universal antioxidant \u2014 active in both aqueous and lipid compartments",
+    "Glutathione regeneration \u2014 reduces oxidized glutathione (GSSG) back to active GSH",
+    "AMPK activation \u2014 improves insulin sensitivity and glucose uptake",
+    "Metal chelation \u2014 binds and facilitates excretion of mercury, arsenic, cadmium"
+  ],
+  "benefits": [
+    "Supports mitochondrial energy production",
+    "Supports antioxidant defense across all cell compartments",
+    "Supports healthy blood glucose regulation already within normal range",
+    "Supports neurological comfort and function"
+  ],
+  "safetyProfile": "Well tolerated. R-form preferred \u2014 more bioavailable and better tolerated than racemic (R/S) mixture. Mild hypoglycemia possible in diabetic patients on insulin or secretagogues.",
+  "contraindications": [
+    "Thiamine (B1) deficiency \u2014 ALA may worsen B1 status; ensure adequate thiamine",
+    "Caution in patients with thyroid autoimmunity \u2014 theoretical iodine metabolism interaction at high doses"
+  ],
+  "drugInteractions": [
+    "Insulin and oral hypoglycemics \u2014 additive glucose-lowering effect; monitor blood glucose carefully",
+    "Chemotherapy (cisplatin) \u2014 theoretical protection of cancer cells at high doses; consult oncologist",
+    "Thyroid medications \u2014 monitor thyroid function if high doses used long-term"
+  ],
+  "physicianNotes": "R-ALA is of particular clinical value in diabetic neuropathy protocols and mitochondrial support. Ensure adequate thiamine status in patients using ALA long-term. Avoid racemic (R/S) mixtures in favor of stabilized R-form for bioavailability and tolerability.",
+  "patientGuidance": "Best taken on an empty stomach or with a light meal. If you have diabetes and take insulin or blood sugar medications, monitor your glucose levels closely and inform your physician.",
+  "linkedPublications": []
+}

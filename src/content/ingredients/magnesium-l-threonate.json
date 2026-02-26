@@ -1,0 +1,41 @@
+{
+  "slug": "magnesium-l-threonate",
+  "name": "Magnesium L-Threonate",
+  "latinName": "Magnesium threonate",
+  "standardization": "Magtein\u00ae patented form",
+  "domain": "cognitive",
+  "domainLabel": "Cognitive Aging Support",
+  "formulas": [
+    "longevity-glynac-powder"
+  ],
+  "historicalUse": "Magnesium L-threonate is a novel chelated form of magnesium developed at MIT in 2010. Its unique blood-brain barrier penetration distinguishes it from all other magnesium forms. The classical tradition of using mineral-rich waters and magnesium-containing foods for cognitive and nervous system support aligns with the modern understanding of magnesium's essential role in synaptic plasticity.",
+  "classicalSources": [
+    "Modern formulation \u2014 functional parallels in classical mineral therapeutics"
+  ],
+  "modernEvidence": "Magtein\u00ae (magnesium L-threonate) was specifically designed to cross the blood-brain barrier, uniquely elevating brain magnesium levels. Dr. Liu Guosong's MIT research demonstrated that Magtein\u00ae increases synaptic density, NMDA receptor function, and cognitive flexibility in animal models. Human clinical trials show improvements in cognitive function scores and working memory in middle-aged and older adults.",
+  "mechanisms": [
+    "Blood-brain barrier penetration \u2014 threonate chelation enables active transport across BBB",
+    "NMDA receptor modulation \u2014 magnesium gates NMDA receptors, controlling synaptic plasticity",
+    "Synaptic density increase \u2014 elevates NR2B NMDA receptor expression",
+    "Long-term potentiation enhancement \u2014 supports memory consolidation mechanisms",
+    "Sleep quality \u2014 activates parasympathetic nervous system, supports deep sleep stages"
+  ],
+  "benefits": [
+    "Supports working memory and cognitive flexibility",
+    "Promotes healthy synaptic density and neuroplasticity",
+    "Supports quality sleep and recovery",
+    "Contributes to stress resilience via parasympathetic activation"
+  ],
+  "safetyProfile": "Well tolerated. Minimal laxative effect compared to other magnesium forms. Mild drowsiness is a feature, not an adverse effect \u2014 take in the evening.",
+  "contraindications": [
+    "Renal impairment \u2014 reduced magnesium clearance; use with caution",
+    "Hypermagnesemia \u2014 monitor in renal patients"
+  ],
+  "drugInteractions": [
+    "Antibiotics (tetracyclines, fluoroquinolones) \u2014 separate by 2+ hours",
+    "Same interactions as other magnesium forms at high doses"
+  ],
+  "physicianNotes": "Magtein\u00ae is the only magnesium form with clinical evidence for brain-specific cognitive benefit. Standard magnesium forms do not reliably increase brain magnesium. Appropriate in cognitive aging protocols, sleep optimization, and stress resilience programs. Take in the evening for synergistic sleep benefit.",
+  "patientGuidance": "Best taken in the evening \u2014 it supports deep sleep and relaxation. Unlike standard magnesium supplements, this form specifically supports brain health and memory.",
+  "linkedPublications": []
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "cranberry-extract",
+  "name": "Cranberry Fruit Extract",
+  "latinName": "Vaccinium macrocarpon",
+  "standardization": "40:1 PAC-standardized",
+  "domain": "urinary",
+  "domainLabel": "Urinary Comfort and Flow",
+  "formulas": [
+    "urinary-flow-support"
+  ],
+  "historicalUse": "North American cranberries were used by indigenous peoples for urinary conditions and wound healing long before European contact. Early American colonial medicine adopted cranberry preparations for urinary and kidney complaints. By the 19th century, cranberry-based preparations appeared in formal pharmacopoeias. The anti-adhesion mechanism for urinary bacteria was not understood until the late 20th century, but the empirical use was centuries ahead of the mechanism.",
+  "classicalSources": [
+    "Native American Algonquin medicine",
+    "19th century American botanical pharmacopoeias"
+  ],
+  "modernEvidence": "PAC-standardized cranberry extract (proanthocyanidins type A) prevents uropathogenic E. coli from adhering to urothelial cell surfaces via P-fimbriae inhibition. This anti-adhesion mechanism \u2014 not acidification of urine as previously believed \u2014 is the validated mechanism. Multiple meta-analyses confirm efficacy in reducing UTI recurrence in prone individuals. 40:1 extract provides consistent PAC dosing.",
+  "mechanisms": [
+    "P-fimbriae inhibition \u2014 type A PACs prevent bacterial adherence to uroepithelial glycoproteins",
+    "Anti-biofilm \u2014 reduces bacterial biofilm formation in the urinary tract",
+    "Antioxidant \u2014 anthocyanins reduce oxidative stress in bladder mucosa",
+    "Acidification (minor) \u2014 mild urinary acidification contributes to bacteriostatic environment"
+  ],
+  "benefits": [
+    "Supports urinary tract comfort and health",
+    "Promotes healthy urinary microenvironment",
+    "Supports immune response in the urinary tract",
+    "Contributes to bladder mucosal integrity"
+  ],
+  "safetyProfile": "Excellent safety profile. Well tolerated. High-dose concentrated extract may cause mild GI discomfort.",
+  "contraindications": [
+    "Caution in patients with history of calcium oxalate kidney stones \u2014 cranberry increases urinary oxalate"
+  ],
+  "drugInteractions": [
+    "Warfarin \u2014 case reports of increased anticoagulant effect; monitor INR",
+    "CYP2C9 substrates \u2014 cranberry may mildly inhibit CYP2C9; clinical significance at extract doses unclear"
+  ],
+  "physicianNotes": "PAC type A standardization is essential \u2014 type B PACs (in grape seed, pine bark) do not demonstrate anti-adhesion activity. Appropriate as prophylaxis in women with recurrent UTI. Not a treatment for active UTI \u2014 refer for appropriate antimicrobial therapy if infection is confirmed.",
+  "patientGuidance": "This formulation helps prevent bacteria from adhering to the bladder wall. It is a preventive support \u2014 if you have symptoms of an active urinary tract infection (burning, frequency, fever), see your physician for proper treatment.",
+  "linkedPublications": []
+}

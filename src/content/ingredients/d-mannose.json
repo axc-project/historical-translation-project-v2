@@ -1,0 +1,39 @@
+{
+  "slug": "d-mannose",
+  "name": "D-Mannose",
+  "latinName": "D-Mannose monosaccharide",
+  "standardization": "Pharmaceutical grade powder",
+  "domain": "urinary",
+  "domainLabel": "Urinary Comfort and Flow",
+  "formulas": [
+    "urinary-flow-support"
+  ],
+  "historicalUse": "D-Mannose is a simple sugar found in cranberries, blueberries, and other fruits. While not used as an isolated compound historically, the tradition of using cranberry and blueberry preparations for urinary complaints across Native American, early American colonial, and Northern European botanical medicine reflects empirical recognition of mannose-containing fruits for urinary health.",
+  "classicalSources": [
+    "Native American botanical medicine",
+    "Northern European folk medicine"
+  ],
+  "modernEvidence": "D-Mannose provides a complementary and mechanistically distinct anti-adhesion effect to cranberry PACs. Uropathogenic E. coli express type 1 fimbriae (FimH lectin) that bind to mannose residues on urothelial surfaces. Oral D-mannose saturates FimH binding sites in the urine, providing a competing substrate that prevents bacterial attachment. The bacteria bind to urinary mannose and are voided. Clinical trials show efficacy comparable to low-dose antibiotic prophylaxis for UTI recurrence prevention.",
+  "mechanisms": [
+    "FimH lectin competitive inhibitor \u2014 saturates type 1 fimbriae binding sites in urine",
+    "Competitive anti-adhesion \u2014 bacteria bind urinary mannose and are voided rather than attaching",
+    "Biofilm prevention \u2014 reduces initial bacterial colonization before biofilm can establish",
+    "Minimally absorbed \u2014 most D-mannose passes through to urine intact, maintaining high urinary concentration"
+  ],
+  "benefits": [
+    "Supports urinary tract comfort and health",
+    "Promotes healthy urinary microenvironment",
+    "Supports natural bacterial clearance via urination",
+    "Complementary mechanism to cranberry PAC anti-adhesion activity"
+  ],
+  "safetyProfile": "Excellent safety profile. Minimally metabolized \u2014 most is excreted unchanged in urine. Mild GI discomfort at high doses. Safe in pregnancy (unlike some antibiotic alternatives). Very low glycemic impact.",
+  "contraindications": [
+    "Very high doses \u2014 excessive D-mannose theoretically increases urinary mannose beyond effective range; standard doses are well calibrated"
+  ],
+  "drugInteractions": [
+    "No clinically significant drug interactions identified"
+  ],
+  "physicianNotes": "An excellent evidence-based alternative to long-term antibiotic prophylaxis for recurrent UTI in women. Complementary mechanism with cranberry PACs (type 1 vs P-fimbriae inhibition). Safe in pregnancy. Appropriate long-term use. Reinforce adequate hydration for maximum efficacy.",
+  "patientGuidance": "D-Mannose works by coating bacteria in your urine so they cannot stick to the bladder wall \u2014 they simply get flushed out when you urinate. Drink plenty of water throughout the day to support this mechanism.",
+  "linkedPublications": []
+}

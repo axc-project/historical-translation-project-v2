@@ -1,0 +1,45 @@
+{
+  "slug": "hawthorn-berry-extract",
+  "name": "Hawthorn Berry Extract",
+  "latinName": "Crataegus monogyna / Crataegus laevigata",
+  "standardization": "Oligomeric proanthocyanidins 1.8%",
+  "domain": "circulatory",
+  "domainLabel": "Circulatory Integrity",
+  "formulas": [
+    "circulatory-vitality-core"
+  ],
+  "historicalUse": "Hawthorn has been used in Western botanical medicine since at least the first century CE. Dioscorides and Galen described its cardiac applications. In Arabic medicine, Ibn Sina and Ibn al-Baytar documented its use for palpitations and cardiac weakness. European monastic medicine relied heavily on hawthorn as a heart tonic. The German Commission E and European Scientific Cooperative on Phytotherapy (ESCOP) have formally recognized hawthorn for cardiac insufficiency.",
+  "classicalSources": [
+    "Dioscorides \u2014 De Materia Medica",
+    "Ibn Sina \u2014 Canon of Medicine",
+    "Ibn al-Baytar \u2014 Comprehensive Book on Simple Medicaments"
+  ],
+  "modernEvidence": "Hawthorn is among the best-evidenced cardiac botanical agents. The SPICE and WS 1442 trials demonstrated significant improvements in cardiac output, exercise tolerance, and symptoms in mild-to-moderate heart failure. Active constituents (OPCs, vitexin-rhamnoside, hyperoside) increase coronary blood flow, inhibit ACE and phosphodiesterase, and have positive inotropic effects.",
+  "mechanisms": [
+    "Positive inotrope \u2014 increases myocardial contractility via phosphodiesterase inhibition",
+    "ACE inhibition \u2014 reduces angiotensin II formation, supporting vascular tone",
+    "Coronary vasodilation \u2014 relaxes smooth muscle, increases coronary blood flow",
+    "Antioxidant \u2014 OPCs protect vascular endothelium from oxidative damage",
+    "Anti-arrhythmic \u2014 prolongs refractory period, reduces susceptibility to ventricular arrhythmia"
+  ],
+  "benefits": [
+    "Supports healthy cardiac function and exercise tolerance",
+    "Supports normal blood pressure already within healthy range",
+    "Supports healthy coronary circulation",
+    "Contributes to cardiovascular antioxidant defense"
+  ],
+  "safetyProfile": "Very well tolerated. Commission E-approved. Rare reports of mild nausea or dizziness at high doses. Onset of effect may take 6\u20138 weeks of consistent use.",
+  "contraindications": [
+    "Caution in patients already on prescription cardiac medications \u2014 additive effects possible",
+    "Do not use as primary treatment for diagnosed heart failure without physician oversight"
+  ],
+  "drugInteractions": [
+    "Digoxin \u2014 potential additive inotropic effect; monitor closely",
+    "Antihypertensive medications \u2014 additive blood pressure-lowering effect",
+    "Nitrates \u2014 potential additive vasodilation; monitor for hypotension",
+    "Phenylephrine \u2014 hawthorn may reduce vasopressor response"
+  ],
+  "physicianNotes": "Well-evidenced adjunct in mild-to-moderate cardiac support. Commission E and ESCOP approved for cardiac insufficiency NYHA class I-II. Strong safety data with long-term use. Monitor for additive effects in patients on antihypertensives or digoxin. Allow 6-8 weeks for full therapeutic effect.",
+  "patientGuidance": "Hawthorn works gradually \u2014 allow 6 to 8 weeks before assessing full benefit. If you take heart medications or blood pressure medications, inform your physician before use.",
+  "linkedPublications": []
+}

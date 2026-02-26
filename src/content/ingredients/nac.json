@@ -1,0 +1,44 @@
+{
+  "slug": "nac",
+  "name": "N-Acetyl Cysteine (NAC)",
+  "latinName": "N-Acetyl-L-cysteine",
+  "standardization": "Pharmaceutical grade",
+  "domain": "longevity",
+  "domainLabel": "Longevity & Mitochondrial Resilience",
+  "formulas": [
+    "longevity-glynac-powder",
+    "cellular-advanced"
+  ],
+  "historicalUse": "NAC is a pharmaceutical derivative of the amino acid cysteine, developed in the 1960s as a mucolytic agent for respiratory conditions. Its precursor, cysteine, is found in high concentrations in many protein-rich foods recommended in classical medicine for strength and recovery. The underlying concept \u2014 restoring the body's sulfur-based protective systems \u2014 parallels classical use of sulfur-rich spring waters and cysteine-rich foods throughout Arabic and European medical traditions.",
+  "classicalSources": [
+    "Empirical parallels in classical sulfur spring therapeutics",
+    "Arabic dietary medicine for respiratory and detoxification support"
+  ],
+  "modernEvidence": "NAC is a direct precursor to cysteine, the rate-limiting substrate for glutathione (GSH) synthesis. The GlyNAC clinical trials demonstrate that combined glycine + NAC supplementation dramatically increases GSH levels in older adults, correcting what is now characterized as a hallmark of biological aging. NAC has additional evidence as a mucolytic, hepatoprotective agent (standard treatment for acetaminophen overdose), and neuroprotective agent.",
+  "mechanisms": [
+    "Glutathione precursor \u2014 provides cysteine, the rate-limiting substrate for GSH synthesis",
+    "Direct antioxidant \u2014 NAC itself scavenges reactive oxygen and nitrogen species",
+    "Mucolytic \u2014 reduces disulfide bonds in mucus glycoproteins, thinning mucus",
+    "NF-kB inhibition \u2014 reduces inflammatory cytokine transcription",
+    "Mitochondrial ROS reduction \u2014 decreases mitochondrial superoxide production"
+  ],
+  "benefits": [
+    "Supports glutathione synthesis and antioxidant defense",
+    "Supports respiratory comfort and mucus clearance",
+    "Supports liver detoxification capacity",
+    "Promotes mitochondrial health and healthy aging"
+  ],
+  "safetyProfile": "Well tolerated at supplement doses. Pharmaceutical doses (IV for acetaminophen overdose) are much higher than supplement doses. Mild GI discomfort and sulfur smell possible. Note: FDA issued warning letters in 2021 asserting NAC cannot be marketed as a dietary supplement as it was approved as a drug prior to supplement legislation \u2014 review current status.",
+  "contraindications": [
+    "Asthma \u2014 may trigger bronchospasm in some patients at high inhaled doses (not relevant for oral use)",
+    "Caution in patients with peptic ulcer disease at high doses"
+  ],
+  "drugInteractions": [
+    "Nitroglycerin \u2014 additive vasodilation; risk of hypotension and severe headache",
+    "Activated charcoal \u2014 reduces NAC absorption; do not combine",
+    "Immunosuppressants \u2014 potential immune modulation at high doses"
+  ],
+  "physicianNotes": "The GlyNAC combination is among the most evidence-based interventions in longevity medicine. NAC's role as glutathione precursor is well established. Be aware of FDA's 2021 warning letters regarding NAC's regulatory status as a dietary supplement ingredient in the US. At current time, many NAC supplements remain on market pending regulatory resolution. Verify current status.",
+  "patientGuidance": "Take with food to minimize GI discomfort. A mild sulfur smell from NAC is normal and harmless. This formulation is designed to work as a system \u2014 take both components (glycine and NAC) consistently for best results.",
+  "linkedPublications": []
+}

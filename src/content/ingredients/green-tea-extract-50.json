@@ -1,0 +1,46 @@
+{
+  "slug": "green-tea-extract-50",
+  "name": "Green Tea Extract",
+  "latinName": "Camellia sinensis",
+  "standardization": "50% EGCG",
+  "domain": "cellular",
+  "domainLabel": "Cellular Resilience During Physiological Stress",
+  "formulas": [
+    "cellular-basic",
+    "cellular-resilience-complex"
+  ],
+  "historicalUse": "See EGCG (Green Tea) monograph for full historical context. The 50% EGCG standardized extract provides a broad-spectrum green tea polyphenol profile while maintaining significant EGCG concentration. This intermediate standardization preserves the synergistic catechin complex (EGCG, EGC, ECG, EC) alongside EGCG, potentially offering broader activity than isolated 98% EGCG.",
+  "classicalSources": [
+    "See EGCG Green Tea monograph"
+  ],
+  "modernEvidence": "50% EGCG green tea extract provides the full catechin complex alongside EGCG, offering potentially synergistic antioxidant, metabolic, and cellular protective effects. The combination of catechins demonstrates additive and synergistic activity in clinical research on metabolic syndrome, cardiovascular risk markers, and cellular oxidative stress. This standardization is widely used in clinical trials due to its comprehensive polyphenol profile.",
+  "mechanisms": [
+    "Broad-spectrum catechin antioxidant activity \u2014 all four major catechins provide complementary radical scavenging",
+    "AMPK activation \u2014 improves metabolic sensing across tissues",
+    "Nrf2 pathway activation \u2014 upregulates cellular antioxidant enzyme systems",
+    "NF-kB suppression \u2014 reduces inflammatory cytokine transcription",
+    "Gut microbiome modulation \u2014 catechins selectively support beneficial bacteria",
+    "Lipid oxidation inhibition \u2014 reduces LDL and membrane lipid peroxidation"
+  ],
+  "benefits": [
+    "Supports cellular antioxidant defense",
+    "Supports healthy metabolic function",
+    "Contributes to cardiovascular terrain support",
+    "Supports healthy inflammatory balance"
+  ],
+  "safetyProfile": "Well tolerated at standard doses. Same safety considerations as EGCG monograph \u2014 take with food, monitor liver function at high doses long-term. 50% standardization has lower concentrated-EGCG hepatotoxicity risk than 98% isolated EGCG.",
+  "contraindications": [
+    "Iron deficiency anemia \u2014 reduces non-heme iron absorption; separate from iron",
+    "Liver disease \u2014 monitor LFTs with long-term use at high doses",
+    "Pregnancy \u2014 avoid high-dose concentrated extracts"
+  ],
+  "drugInteractions": [
+    "Warfarin \u2014 monitor INR",
+    "Iron supplements \u2014 separate by 2+ hours",
+    "Bortezomib \u2014 avoid (see EGCG monograph)",
+    "CYP3A4 substrates \u2014 mild inhibition at high doses"
+  ],
+  "physicianNotes": "The 50% EGCG extract is appropriate in standard cellular support protocols. Always taken with food. Lower hepatotoxicity risk than 98% isolated EGCG due to lower concentrated-EGCG per dose. Iron absorption interference is the most practically relevant interaction in clinical practice.",
+  "patientGuidance": "Take with meals. If you take iron supplements, separate the doses by at least 2 hours. If you have liver disease or take blood thinners, inform your physician.",
+  "linkedPublications": []
+}

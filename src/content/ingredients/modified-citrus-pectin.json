@@ -1,0 +1,45 @@
+{
+  "slug": "modified-citrus-pectin",
+  "name": "Modified Citrus Pectin",
+  "latinName": "Citrus species \u2014 fractionated pectin",
+  "standardization": "PectaSol-C\u00ae fractionated",
+  "domain": "cellular",
+  "domainLabel": "Cellular Resilience During Physiological Stress",
+  "formulas": [
+    "cellular-advanced"
+  ],
+  "historicalUse": "Citrus fruits and their preparations have been used medicinally across Arabic, Jewish, and Mediterranean traditions for over 2,000 years. Rambam specifically recommended citrus preparations in his Treatise on Poisons and other medical writings for their detoxifying and protective properties. Ibn Sina documented lemon and citrus preparations extensively in the Canon. Modified citrus pectin as a fractionated, low-molecular-weight form is a modern pharmaceutical development, but the citrus substrate has deep classical roots.",
+  "classicalSources": [
+    "Maimonides \u2014 Treatise on Poisons (citrus preparations)",
+    "Ibn Sina \u2014 Canon of Medicine (citrus therapeutics)",
+    "Dioscorides \u2014 De Materia Medica"
+  ],
+  "modernEvidence": "PectaSol-C\u00ae is a clinically validated, pH- and temperature-modified low-molecular-weight citrus pectin with the ability to pass through the intestinal wall into systemic circulation \u2014 unlike standard pectin. Primary mechanism is galectin-3 inhibition. Galectin-3 is a protein implicated in cancer metastasis, fibrosis, and chronic inflammation. Clinical research by Dr. Isaac Eliaz (developer of PectaSol-C\u00ae) demonstrates significant galectin-3 reduction and clinically meaningful results in prostate cancer monitoring (PSA studies) and heavy metal chelation.",
+  "mechanisms": [
+    "Galectin-3 inhibition \u2014 blocks galectin-3, a key mediator of cancer cell adhesion, metastasis, and fibrosis",
+    "Heavy metal chelation \u2014 low-MW pectin binds lead, arsenic, and cadmium in the GI tract and systemically",
+    "Immune modulation \u2014 activates NK cell and macrophage activity via TLR-4 binding",
+    "Anti-fibrotic \u2014 galectin-3 inhibition reduces tissue fibrosis in heart, liver, and kidney",
+    "Anti-inflammatory \u2014 modulates macrophage inflammatory polarization"
+  ],
+  "benefits": [
+    "Supports cellular resilience and healthy galectin-3 balance",
+    "Supports detoxification of environmental heavy metals",
+    "Contributes to healthy immune function",
+    "Supports anti-fibrotic pathways in aging tissues"
+  ],
+  "safetyProfile": "Excellent safety profile. PectaSol-C\u00ae is well tolerated. Mild GI effects (bloating, loose stools) at high doses. GRAS status for citrus pectin. Fractionated form has extensive clinical safety data.",
+  "contraindications": [
+    "Caution in patients with severe GI motility disorders",
+    "Citrus allergy \u2014 theoretical cross-reactivity"
+  ],
+  "drugInteractions": [
+    "May reduce absorption of some medications if taken simultaneously \u2014 take medications 2 hours apart from MCP",
+    "Chemotherapy \u2014 galectin-3 inhibition may have synergistic effects with some agents; discuss with oncologist"
+  ],
+  "physicianNotes": "PectaSol-C\u00ae is the only clinically validated MCP form \u2014 other modified citrus pectins lack this evidence base. Particularly relevant in integrative oncology (galectin-3 monitoring, PSA surveillance protocols) and in heavy metal detoxification programs. Advise oncologists of use in cancer patients \u2014 generally considered supportive rather than interfering.",
+  "patientGuidance": "Take on an empty stomach or at least 2 hours away from other medications. If you are being monitored for cancer markers or are in an integrative oncology program, this ingredient is particularly relevant \u2014 discuss with your physician.",
+  "linkedPublications": [
+    "cancer-across-time-and-civilizations"
+  ]
+}

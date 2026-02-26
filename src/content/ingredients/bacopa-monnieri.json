@@ -1,0 +1,44 @@
+{
+  "slug": "bacopa-monnieri",
+  "name": "Bacopa Monnieri Extract",
+  "latinName": "Bacopa monnieri",
+  "standardization": "55% Bacosides",
+  "domain": "cognitive",
+  "domainLabel": "Cognitive Aging Support",
+  "formulas": [
+    "neuro-resilience-module"
+  ],
+  "historicalUse": "Brahmi (Bacopa monnieri) is one of the premier Ayurvedic nootropic herbs, documented in Charaka Samhita and Atharva Veda as a medhya rasayana \u2014 a medicine for intellect and memory. Used continuously in Indian medicine for over 3,000 years for enhancing memory, reducing anxiety, and supporting longevity. Islamic and Persian medical travelers encountered and recorded its use in Indian territories.",
+  "classicalSources": [
+    "Charaka Samhita",
+    "Sushruta Samhita",
+    "Atharva Veda"
+  ],
+  "modernEvidence": "Multiple double-blind RCTs demonstrate that Bacopa extract (55% bacosides) significantly improves memory consolidation, learning rate, and information processing speed. Effects are most pronounced in adults over 40 and in individuals under chronic stress. Bacosides enhance dendritic arborization and synaptic plasticity. Onset of cognitive effects typically requires 8\u201312 weeks of consistent use.",
+  "mechanisms": [
+    "Acetylcholinesterase inhibition \u2014 increases synaptic acetylcholine availability",
+    "Dendritic proliferation \u2014 bacosides stimulate neurite outgrowth and dendritic branching",
+    "Antioxidant \u2014 reduces oxidative stress in hippocampal tissue",
+    "Serotonin reuptake modulation \u2014 contributes to anxiolytic and mood-stabilizing effect",
+    "BDNF upregulation \u2014 increases brain-derived neurotrophic factor expression"
+  ],
+  "benefits": [
+    "Supports healthy memory consolidation and recall",
+    "Supports learning capacity and information processing",
+    "Promotes cognitive calm under stress",
+    "Supports long-term cognitive resilience"
+  ],
+  "safetyProfile": "Well tolerated. Most common adverse effect is mild GI discomfort \u2014 take with food to minimize. Effects build over 8\u201312 weeks; premature discontinuation is the most common reason for perceived lack of efficacy.",
+  "contraindications": [
+    "Pregnancy \u2014 insufficient safety data",
+    "Caution in patients on thyroid medications \u2014 bacopa may reduce T4 levels at high doses"
+  ],
+  "drugInteractions": [
+    "Anticholinergic medications \u2014 opposing mechanism; reduced efficacy of anticholinergics",
+    "Thyroid hormone medications \u2014 monitor thyroid function",
+    "Sedative medications \u2014 additive CNS effects possible"
+  ],
+  "physicianNotes": "Require consistent use for 8\u201312 weeks before assessing cognitive benefit. Highly appropriate in age-related cognitive decline, stress-related cognitive impairment, and as adjunct in MCI protocols. Monitor thyroid function in patients on thyroid medications.",
+  "patientGuidance": "Take with food to minimize stomach upset. Cognitive benefits emerge gradually over 8 to 12 weeks \u2014 consistency is essential. Do not discontinue prematurely.",
+  "linkedPublications": []
+}

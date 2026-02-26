@@ -1,0 +1,41 @@
+{
+  "slug": "phosphatidylserine",
+  "name": "Phosphatidylserine",
+  "latinName": "Phospholipid complex",
+  "standardization": "Sharp-PS\u00ae from sunflower lecithin",
+  "domain": "cognitive",
+  "domainLabel": "Cognitive Aging Support",
+  "formulas": [
+    "neuro-resilience-module"
+  ],
+  "historicalUse": "Phosphatidylserine is an endogenous phospholipid with no direct classical herbal history. However, the tradition of consuming brain and organ tissues for cognitive support \u2014 documented in Arabic culinary medicine and Chinese dietary therapy \u2014 reflects empirical recognition that neural tissue lipids support brain function. Rambam's dietary recommendations for brain health included organ-rich preparations consistent with high phospholipid content.",
+  "classicalSources": [
+    "Empirical parallels in Ibn Sina's recommendations for brain-nourishing foods"
+  ],
+  "modernEvidence": "PS is the most abundant phospholipid in brain cell membranes, critical for membrane fluidity, neurotransmitter release, and cell signaling. Sharp-PS\u00ae from sunflower lecithin avoids BSE concerns of bovine-derived PS. The FDA has authorized a qualified health claim for PS and cognitive function (FDA Docket 02P-0413). Clinical trials demonstrate improved memory, attention, and processing speed in age-related cognitive decline.",
+  "mechanisms": [
+    "Neuronal membrane integrity \u2014 maintains membrane fluidity and receptor density",
+    "Acetylcholine release \u2014 supports vesicular release at cholinergic synapses",
+    "Cortisol buffering \u2014 reduces exercise and stress-induced cortisol elevation",
+    "Dopamine and serotonin signaling \u2014 modulates neurotransmitter release kinetics",
+    "Microglial regulation \u2014 reduces neuroinflammatory activation"
+  ],
+  "benefits": [
+    "FDA qualified health claim: may reduce risk of cognitive dysfunction",
+    "Supports healthy memory and attention span",
+    "Supports cortisol regulation under stress",
+    "Contributes to neuronal membrane integrity"
+  ],
+  "safetyProfile": "Excellent safety profile. Sunflower-derived (Sharp-PS\u00ae ) avoids BSE/prion concerns of bovine sources. Well tolerated at 100\u2013300mg/day. Mild GI discomfort at high doses.",
+  "contraindications": [
+    "Anticoagulant therapy \u2014 theoretical interaction at high doses",
+    "No absolute contraindications at standard doses"
+  ],
+  "drugInteractions": [
+    "Anticholinergic medications \u2014 opposing cholinergic mechanism",
+    "Anticoagulants \u2014 additive antiplatelet activity at high doses; monitor INR"
+  ],
+  "physicianNotes": "FDA-qualified health claim for cognitive function makes PS among the most defensible ingredients in cognitive support formulations. Sunflower-derived form eliminates safety concerns of bovine-derived products. Appropriate across broad patient populations including elderly patients with early cognitive decline.",
+  "patientGuidance": "Can be taken with or without food. Mental performance benefits typically become noticeable after 4\u20136 weeks of consistent use.",
+  "linkedPublications": []
+}

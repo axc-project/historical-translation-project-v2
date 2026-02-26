@@ -1,0 +1,44 @@
+{
+  "slug": "selenium-selenomethionine",
+  "name": "Selenium (as Selenomethionine)",
+  "latinName": "Selenium \u2014 organic amino acid chelate",
+  "standardization": "SelenoExcell\u00ae GRAS certified",
+  "domain": "cellular",
+  "domainLabel": "Cellular Resilience During Physiological Stress",
+  "formulas": [
+    "cellular-advanced"
+  ],
+  "historicalUse": "Selenium as an element was not known to classical medicine, but selenium-rich foods including garlic, onion, and grain preparations from selenium-rich soils appear throughout Arabic and Mediterranean dietary medicine. Rambam's dietary recommendations emphasizing garlic and allium preparations for vitality and disease prevention align with modern understanding of selenium's role in glutathione peroxidase function and antioxidant defense.",
+  "classicalSources": [
+    "Empirical parallels in classical garlic and allium therapeutics \u2014 Ibn Sina, Maimonides"
+  ],
+  "modernEvidence": "Selenium is an essential trace mineral and obligate component of 25 selenoprotein enzymes, including all five glutathione peroxidases (GPx), thioredoxin reductase, and iodothyronine deiodinases (thyroid hormone activation). SelenoExcell\u00ae (high-selenium yeast, organic selenomethionine) has GRAS status and is the form with the strongest evidence for bioavailability and cancer prevention research. The SELECT and NPC trials established selenium's role in cellular defense, though outcomes varied by baseline selenium status.",
+  "mechanisms": [
+    "Glutathione peroxidase cofactor \u2014 essential for all 5 GPx enzymes that neutralize peroxides",
+    "Thioredoxin reductase activation \u2014 regenerates thioredoxin for DNA synthesis and redox balance",
+    "Thyroid hormone activation \u2014 iodothyronine deiodinase converts T4 to active T3",
+    "p53 pathway support \u2014 selenium-dependent selenoprotein P supports tumor suppressor function",
+    "Sperm motility \u2014 selenoprotein in sperm mitochondrial capsule essential for male fertility"
+  ],
+  "benefits": [
+    "Supports antioxidant defense via glutathione peroxidase activation",
+    "Supports healthy thyroid hormone metabolism",
+    "Contributes to cellular DNA protection and repair",
+    "Supports healthy immune function"
+  ],
+  "safetyProfile": "Safe at 100\u2013200mcg/day. Selenomethionine form is well absorbed and well tolerated. Selenium toxicity (selenosis) occurs at chronic intakes >400mcg/day \u2014 characterized by garlic breath, hair loss, nail changes. SelenoExcell\u00ae organic form has superior safety to inorganic selenate/selenite.",
+  "contraindications": [
+    "Do not exceed 400mcg/day from all sources \u2014 toxicity risk",
+    "Autoimmune thyroid disease \u2014 selenium modulates thyroid immunity; consult physician"
+  ],
+  "drugInteractions": [
+    "Chemotherapy (cisplatin) \u2014 selenium may reduce nephrotoxicity; discuss with oncologist",
+    "Anticoagulants \u2014 high doses may have mild antiplatelet activity",
+    "Thyroid medications \u2014 selenium affects thyroid hormone metabolism; monitor TSH"
+  ],
+  "physicianNotes": "Assess baseline selenium status if clinically relevant (RBC selenium or plasma selenium). US soil selenium is variable \u2014 deficiency more common in certain geographic regions. SelenoExcell\u00ae preferred over sodium selenite (inorganic) for tolerability. In autoimmune thyroiditis (Hashimoto's), selenium 200mcg/day has demonstrated reduction in anti-TPO antibodies in clinical trials.",
+  "patientGuidance": "Do not take additional selenium supplements if you are already taking a selenium-containing multivitamin \u2014 total daily intake from all sources should stay under 400mcg. Brazil nuts are also very high in selenium \u2014 limit intake if supplementing.",
+  "linkedPublications": [
+    "cancer-across-time-and-civilizations"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "saw-palmetto-extract",
+  "name": "Saw Palmetto Extract",
+  "latinName": "Serenoa repens",
+  "standardization": "45% Fatty acids & sterols",
+  "domain": "urinary",
+  "domainLabel": "Urinary Comfort and Flow",
+  "formulas": [
+    "urinary-flow-support"
+  ],
+  "historicalUse": "Saw palmetto berries were used by Seminole and other southeastern Native American peoples as food and medicine. Early American botanical practitioners in the 19th century adopted it for genitourinary conditions. By the early 20th century it appeared in the United States Pharmacopoeia (1906 edition). In Europe, standardized saw palmetto extract became a prescription pharmaceutical for benign prostatic hyperplasia (BPH) in Germany and France.",
+  "classicalSources": [
+    "Native American Seminole medicine",
+    "US Pharmacopoeia 1906",
+    "German Commission E monograph"
+  ],
+  "modernEvidence": "Saw palmetto extract (45% fatty acids and sterols) is among the most studied botanicals for urinary flow support in men. Active constituents inhibit 5-alpha-reductase (reducing DHT production), inhibit alpha-1 adrenergic receptors (promoting bladder neck relaxation), and have anti-inflammatory effects on prostate tissue. Multiple RCTs and the large STEP trial demonstrate improvements in urinary flow, nocturia, and IPSS scores. Commission E approved for irritable bladder and urination problems associated with BPH stage I-II.",
+  "mechanisms": [
+    "5-alpha-reductase inhibition \u2014 reduces conversion of testosterone to DHT, lowering prostatic androgen stimulation",
+    "Alpha-1 adrenergic blockade \u2014 relaxes smooth muscle in bladder neck and urethra, improving urine flow",
+    "Anti-inflammatory \u2014 inhibits COX and 5-LOX pathways in prostatic tissue",
+    "Anti-estrogenic \u2014 reduces estrogen receptor binding in prostatic tissue",
+    "Anti-proliferative \u2014 inhibits growth factor-induced prostatic cell proliferation"
+  ],
+  "benefits": [
+    "Supports healthy urinary flow and stream",
+    "Supports healthy prostate function",
+    "Promotes normal nighttime urinary frequency",
+    "Supports comfortable bladder emptying"
+  ],
+  "safetyProfile": "Well tolerated. Mild GI discomfort in some patients. Rare reports of erectile dysfunction (less common than with pharmaceutical 5-alpha-reductase inhibitors). May affect PSA levels \u2014 see physician notes.",
+  "contraindications": [
+    "Hormone-sensitive conditions \u2014 saw palmetto modulates androgen and estrogen signaling",
+    "Pregnancy and lactation",
+    "Caution in hormone-sensitive cancers \u2014 discuss with oncologist"
+  ],
+  "drugInteractions": [
+    "Anticoagulants \u2014 mild antiplatelet activity; monitor INR",
+    "Hormonal medications \u2014 theoretical interaction with testosterone or estrogen therapy",
+    "Finasteride/Dutasteride \u2014 additive 5-alpha-reductase inhibition; monitor"
+  ],
+  "physicianNotes": "IMPORTANT: Saw palmetto may lower PSA by approximately 50%, masking PSA-based prostate cancer screening. Advise patients to disclose saw palmetto use before PSA testing. Commission E approved for BPH stages I-II. Appropriate adjunct to watchful waiting protocols. Not a substitute for medical evaluation of lower urinary tract symptoms in men \u2014 exclude prostate cancer and other pathology before initiating.",
+  "patientGuidance": "IMPORTANT: If you have a PSA test scheduled, inform your doctor that you take saw palmetto \u2014 it can lower PSA levels, which may affect test interpretation. This formulation supports urinary comfort but does not replace a medical evaluation of urinary symptoms.",
+  "linkedPublications": []
+}

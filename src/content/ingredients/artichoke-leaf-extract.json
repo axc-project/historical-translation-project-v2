@@ -1,0 +1,37 @@
+{
+  "slug": "artichoke-leaf-extract",
+  "name": "Artichoke Leaf Extract",
+  "latinName": "Cynara scolymus",
+  "standardization": "5% Cynarin",
+  "domain": "metabolic",
+  "domainLabel": "Metabolic Terrain",
+  "formulas": ["digestive-metabolic-core"],
+  "historicalUse": "Artichoke was cultivated and used medicinally in ancient Egypt, Greece, and Rome. Dioscorides recorded its use for digestive complaints and liver support in De Materia Medica (1st century CE). In the Arabic tradition, al-Kindi and Ibn Sina (Avicenna) prescribed the plant for hepatic sluggishness and bile obstruction — the latter in the Canon of Medicine under the heading of mufattih al-sudad (openers of obstructions). Rambam's dietary writings echo this use, recommending bitter greens and cholagogue herbs for individuals with heavy dietary habits.",
+  "classicalSources": ["Dioscorides — De Materia Medica", "Ibn Sina — Canon of Medicine (al-Qanun fi al-Tibb)", "Maimonides — Treatise on Asthma"],
+  "modernEvidence": "Standardized artichoke leaf extract (ALE) containing 5% cynarin has been demonstrated in multiple randomized controlled trials to significantly increase bile production and flow (choleretic effect), reduce total cholesterol and LDL in dyslipidemia, and improve subjective symptoms of functional dyspepsia including bloating, nausea, and post-meal fullness. The primary active constituents — cynarin, cynaroside, and chlorogenic acid — modulate hepatic HMG-CoA reductase activity and stimulate bile acid conjugation.",
+  "mechanisms": [
+    "Choleretic: stimulates hepatic bile acid secretion via cynarin-mediated bile canaliculi activation",
+    "Hepatoprotective: antioxidant phenolic acids reduce hepatocellular lipid peroxidation",
+    "Hypolipidemic: inhibits HMG-CoA reductase, reduces de novo cholesterol synthesis",
+    "Prebiotic: inulin-type fructans support Bifidobacterium and Lactobacillus populations"
+  ],
+  "benefits": [
+    "Supports normal bile flow and hepatic metabolic function",
+    "Promotes post-meal digestive comfort and reduction of bloating",
+    "Supports healthy cholesterol levels already within normal range",
+    "Contributes to healthy gut microbiome composition"
+  ],
+  "safetyProfile": "Well tolerated at standard doses (300–600 mg extract daily). Rare reports of allergic contact dermatitis in individuals with Asteraceae (daisy family) hypersensitivity.",
+  "contraindications": [
+    "Bile duct obstruction or cholestasis — choleretic action is contraindicated",
+    "Known allergy to Asteraceae/Compositae family (ragweed, chrysanthemum, marigold)",
+    "Gallstone disease — consult physician before use as increased bile flow may precipitate colic"
+  ],
+  "drugInteractions": [
+    "Theoretical potentiation of lipid-lowering agents (statins) — monitor if co-administering",
+    "May alter absorption timing of fat-soluble medications due to bile modulation"
+  ],
+  "physicianNotes": "Consider in patients with functional dyspepsia, non-alcoholic fatty liver disease (NAFLD) support protocols, or mild hypercholesterolemia. Contraindicated in confirmed cholestasis or bile duct obstruction. LFTs should be monitored in patients with pre-existing hepatic conditions.",
+  "patientGuidance": "Take with meals containing dietary fat to support bile release timing. If you have a history of gallstones or liver disease, discuss with your physician before use. Mild digestive adjustment (loose stools) may occur in the first week — this is consistent with increased bile flow and typically resolves.",
+  "linkedPublications": ["rambams-guide-to-health"]
+}

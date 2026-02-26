@@ -1,0 +1,46 @@
+{
+  "slug": "grape-seed-extract",
+  "name": "Grape Seed Extract",
+  "latinName": "Vitis vinifera",
+  "standardization": "95% OPC (Oligomeric Proanthocyanidins)",
+  "domain": "circulatory",
+  "domainLabel": "Circulatory Integrity",
+  "formulas": [
+    "circulatory-vitality-core"
+  ],
+  "historicalUse": "Grape preparations appear throughout ancient Mediterranean and Arabic medical traditions. Rambam dedicated substantial attention to grapes and grape products in his dietary writings, noting their effects on cardiac vitality, blood quality, and digestive function. Ibn Sina and Dioscorides both described medicinal applications of grape seeds, skins, and leaves. The French paradox \u2014 low cardiovascular disease rates in populations consuming polyphenol-rich red wine \u2014 renewed modern scientific interest in grapevine constituents.",
+  "classicalSources": [
+    "Maimonides \u2014 dietary writings",
+    "Dioscorides \u2014 De Materia Medica",
+    "Ibn Sina \u2014 Canon of Medicine"
+  ],
+  "modernEvidence": "Grape seed extract (GSE) standardized to 95% OPCs contains procyanidin oligomers and monomers (catechin, epicatechin). Multiple RCTs demonstrate significant improvements in endothelial function, reduction of LDL oxidation, lowering of systolic blood pressure, and anti-edema effects. OPCs have among the highest measured antioxidant capacity (ORAC) of any dietary phenolic compounds.",
+  "mechanisms": [
+    "Endothelial protection \u2014 OPCs bind collagen and elastin, protecting vascular matrix integrity",
+    "LDL antioxidation \u2014 prevents copper-catalyzed LDL oxidation, reducing atherogenic potential",
+    "ACE inhibition \u2014 reduces vasoconstriction via angiotensin II reduction",
+    "Platelet aggregation inhibition \u2014 reduces thrombotic risk at vascular injury sites",
+    "NF-kB inhibition \u2014 reduces vascular inflammatory signaling"
+  ],
+  "benefits": [
+    "Supports healthy blood pressure already within normal range",
+    "Supports vascular integrity and endothelial function",
+    "Promotes healthy LDL profile",
+    "Contributes to leg circulation comfort and reduction of edema"
+  ],
+  "safetyProfile": "Excellent safety profile. Well tolerated at 100\u2013300mg/day. No significant adverse events in clinical trials.",
+  "contraindications": [
+    "Caution pre-surgery due to antiplatelet activity",
+    "Pregnancy \u2014 insufficient data at therapeutic doses"
+  ],
+  "drugInteractions": [
+    "Anticoagulants \u2014 additive antiplatelet effect; monitor INR",
+    "Warfarin \u2014 monitor closely",
+    "Iron supplements \u2014 OPCs may reduce iron absorption; separate doses by 2+ hours"
+  ],
+  "physicianNotes": "Appropriate in cardiovascular risk reduction protocols, chronic venous insufficiency, and as antioxidant support. Additive benefit with CoQ10 and hawthorn in circulatory support protocols. Monitor anticoagulation in patients on warfarin.",
+  "patientGuidance": "If you take blood thinners or iron supplements, inform your physician and separate iron supplement doses by at least 2 hours.",
+  "linkedPublications": [
+    "rambams-guide-to-health"
+  ]
+}

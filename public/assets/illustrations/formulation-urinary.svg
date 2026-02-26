@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Urinary Flow Support formulation icon">
+  <circle cx="60" cy="60" r="55" fill="#f5f0e8" opacity="0.8"/>
+  <circle cx="60" cy="60" r="55" fill="none" stroke="#b8962e" stroke-width="0.8" opacity="0.4"/>
+  <!-- Kidney shape pair -->
+  <path d="M48 42 C38 42 34 52 36 60 C38 68 44 74 52 72 C56 71 58 66 56 60 C54 54 56 50 60 50 C56 46 52 42 48 42Z" fill="none" stroke="#1a2744" stroke-width="1.5" opacity="0.65"/>
+  <path d="M72 42 C82 42 86 52 84 60 C82 68 76 74 68 72 C64 71 62 66 64 60 C66 54 64 50 60 50 C64 46 68 42 72 42Z" fill="none" stroke="#1a2744" stroke-width="1.5" opacity="0.65"/>
+  <!-- Flow droplets -->
+  <path d="M60 75 C60 75 56 82 56 85 C56 88 58 90 60 90 C62 90 64 88 64 85 C64 82 60 75 60 75Z" fill="#b8962e" opacity="0.6"/>
+  <path d="M52 78 C52 78 49 83 49 85 C49 87 50.5 88.5 52 88.5 C53.5 88.5 55 87 55 85 C55 83 52 78 52 78Z" fill="#b8962e" opacity="0.35"/>
+  <path d="M68 78 C68 78 65 83 65 85 C65 87 66.5 88.5 68 88.5 C69.5 88.5 71 87 71 85 C71 83 68 78 68 78Z" fill="#b8962e" opacity="0.35"/>
+</svg>

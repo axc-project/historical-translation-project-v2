@@ -1,0 +1,42 @@
+{
+  "slug": "glycine",
+  "name": "Glycine",
+  "latinName": "Aminoacetic acid",
+  "standardization": "Pharmaceutical grade powder",
+  "domain": "longevity",
+  "domainLabel": "Longevity & Mitochondrial Resilience",
+  "formulas": [
+    "longevity-glynac-powder"
+  ],
+  "historicalUse": "Glycine-rich foods \u2014 particularly bone broth, cartilage, and collagen-containing preparations \u2014 have been used medicinally across virtually every traditional medical system. Rambam's dietary writings specifically recommend bone marrow and gelatin preparations for convalescence and weakness. Chinese medicine has used bone broth-based formulas for centuries. Glycine was isolated from gelatin in 1820 by Henri Braconnot, but its presence in therapeutic foods was empirically recognized long before.",
+  "classicalSources": [
+    "Maimonides \u2014 convalescence dietary recommendations",
+    "Chinese bone broth traditions",
+    "Arabic gelatin preparations for weakness"
+  ],
+  "modernEvidence": "The GlyNAC combination (glycine + N-acetyl cysteine) has emerged as one of the most promising longevity interventions in recent clinical research. Dr. Rajagopal Sekhar's landmark trials at Baylor College of Medicine demonstrated that GlyNAC supplementation in older adults corrects glutathione deficiency, improves mitochondrial function, reduces oxidative stress, and improves muscle strength, gait speed, and cognitive function. Glycine itself is essential for glutathione (GSH) synthesis as one of its three precursor amino acids.",
+  "mechanisms": [
+    "Glutathione precursor \u2014 one of three amino acids required for GSH synthesis (with cysteine and glutamate)",
+    "Collagen synthesis \u2014 obligate component of collagen triple helix (Gly-X-Y repeat)",
+    "Inhibitory neurotransmitter \u2014 glycine receptor agonist in spinal cord and brainstem, promoting muscle relaxation",
+    "Mitochondrial support \u2014 required for heme synthesis and electron transport chain components",
+    "Sleep quality \u2014 glycine receptor activation in the brain promotes deeper sleep stages"
+  ],
+  "benefits": [
+    "Supports glutathione synthesis and antioxidant defense",
+    "Supports collagen production and connective tissue integrity",
+    "Promotes healthy sleep quality",
+    "Supports healthy aging and mitochondrial function"
+  ],
+  "safetyProfile": "Excellent safety profile. GRAS status. Well tolerated at therapeutic doses (3\u201315g/day). Mild sedation possible \u2014 take in evening if this is a concern.",
+  "contraindications": [
+    "No known absolute contraindications at dietary supplement doses"
+  ],
+  "drugInteractions": [
+    "Clozapine \u2014 high-dose glycine may reduce clozapine efficacy in schizophrenia treatment; separate protocols",
+    "No clinically significant interactions at standard supplement doses"
+  ],
+  "physicianNotes": "The GlyNAC protocol (glycine 1.33mg/kg + NAC 0.81mg/kg) from Sekhar et al. represents a validated longevity intervention with strong RCT evidence. Glycine alone has significant sleep quality benefits at 3g before bed. Appropriate across a wide age range with particular benefit in patients over 40.",
+  "patientGuidance": "Glycine powder has a mildly sweet taste and mixes easily in water or juice. If taken in the evening, it may improve your sleep quality. This is a normal and beneficial effect.",
+  "linkedPublications": []
+}

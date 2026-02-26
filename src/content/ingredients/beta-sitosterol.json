@@ -1,0 +1,41 @@
+{
+  "slug": "beta-sitosterol",
+  "name": "Beta-Sitosterol",
+  "latinName": "Phytosterol complex",
+  "standardization": "Phytosterol complex",
+  "domain": "urinary",
+  "domainLabel": "Urinary Comfort and Flow",
+  "formulas": [
+    "urinary-flow-support"
+  ],
+  "historicalUse": "Phytosterol-rich plants including pumpkin seeds, flaxseed, and various roots have been used for urinary and reproductive health across Arabic, African, and European folk medicine traditions. Pumpkin seeds in particular appear in Arabic and Ottoman dietary medicine for male urinary health. Beta-sitosterol was isolated in the 20th century but its food sources were empirically used for centuries for precisely the conditions it now treats.",
+  "classicalSources": [
+    "Arabic and Ottoman dietary medicine \u2014 pumpkin seeds for male urinary health",
+    "African traditional medicine \u2014 phytosterol-rich plants for prostate support"
+  ],
+  "modernEvidence": "Beta-sitosterol is a plant sterol structurally similar to cholesterol. Multiple double-blind RCTs specifically in men with BPH symptoms demonstrate significant improvements in peak urinary flow rate (Qmax), average flow rate, and IPSS scores versus placebo. The Cochrane review (1999, updated) concluded beta-sitosterol significantly improves urinary symptom scores in BPH. Mechanism involves inhibition of 5-alpha-reductase and anti-inflammatory activity in prostate tissue.",
+  "mechanisms": [
+    "5-alpha-reductase inhibition \u2014 reduces DHT production in prostate tissue",
+    "Cholesterol metabolism modulation \u2014 disrupts prostatic cholesterol accumulation associated with cell proliferation",
+    "Anti-inflammatory \u2014 inhibits prostaglandin synthesis in bladder and prostate",
+    "Binding to sex steroid receptors \u2014 competitive inhibition of androgen and estrogen receptor sites in prostate"
+  ],
+  "benefits": [
+    "Supports healthy urinary flow rate",
+    "Promotes comfortable bladder emptying",
+    "Supports healthy prostate function",
+    "Contributes to prostate tissue inflammatory balance"
+  ],
+  "safetyProfile": "Excellent safety profile. Well tolerated. May mildly reduce cholesterol absorption \u2014 beneficial for most patients.",
+  "contraindications": [
+    "Sitosterolemia \u2014 rare genetic disorder of phytosterol metabolism; contraindicated",
+    "Caution in hormone-sensitive conditions"
+  ],
+  "drugInteractions": [
+    "Cholesterol medications (ezetimibe) \u2014 additive cholesterol absorption reduction",
+    "Cyclosporine \u2014 beta-sitosterol may reduce cyclosporine absorption; monitor levels in transplant patients"
+  ],
+  "physicianNotes": "Strong RCT evidence base \u2014 among the best-evidenced phytosterols for urinary support. Cochrane-reviewed. Complement with saw palmetto and nettle root for synergistic multi-mechanism BPH support protocol. Advise PSA disclosure.",
+  "patientGuidance": "Best taken with meals. Beta-sitosterol works to support healthy prostate function and urinary flow over time \u2014 consistent daily use is important for benefit.",
+  "linkedPublications": []
+}

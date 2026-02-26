@@ -1,0 +1,44 @@
+{
+  "slug": "magnesium-bisglycinate",
+  "name": "Magnesium (as Bisglycinate)",
+  "latinName": "Magnesium bisglycinate chelate",
+  "standardization": "Albion\u00ae TRAACS\u2122",
+  "domain": "circulatory",
+  "domainLabel": "Circulatory Integrity",
+  "formulas": [
+    "circulatory-vitality-core"
+  ],
+  "historicalUse": "Magnesium-rich mineral waters and spa therapies have been used for cardiovascular and musculoskeletal conditions since Roman antiquity. The mineral itself was formally isolated in 1808, but magnesium-rich natural environments have been used therapeutically across history. Arabic physicians recommended mineral-rich spring waters and specific foods high in what we now know to be magnesium content for cardiac palpitations and muscular cramping.",
+  "classicalSources": [
+    "Roman thermae traditions",
+    "Ibn Sina \u2014 mineral therapeutics in Canon of Medicine"
+  ],
+  "modernEvidence": "Magnesium is an essential cofactor for over 300 enzymatic reactions including ATP synthesis, DNA repair, and muscle contraction. Deficiency is associated with hypertension, arrhythmia, insulin resistance, and increased cardiovascular risk. Bisglycinate chelate (Albion\u00ae TRAACS\u2122) offers superior bioavailability and GI tolerability compared to oxide, citrate, or sulfate forms. Clinical studies support magnesium supplementation for blood pressure reduction, arrhythmia prevention, and migraine prophylaxis.",
+  "mechanisms": [
+    "Calcium channel antagonism \u2014 competes with calcium for vascular smooth muscle binding sites, promoting vasodilation",
+    "Na/K-ATPase cofactor \u2014 maintains cellular electrolyte balance essential for cardiac rhythm",
+    "Insulin sensitization \u2014 GLUT4 translocation and insulin receptor signaling require magnesium",
+    "Anti-arrhythmic \u2014 stabilizes cardiac membrane potential",
+    "NMDA receptor modulation \u2014 supports neurological calm and sleep quality"
+  ],
+  "benefits": [
+    "Supports normal blood pressure already within healthy range",
+    "Supports healthy cardiac rhythm",
+    "Supports healthy blood glucose regulation",
+    "Promotes muscular relaxation and sleep quality"
+  ],
+  "safetyProfile": "Excellent safety profile at dietary supplement doses. Albion bisglycinate minimizes laxative effect common with oxide and sulfate forms. Renal clearance is efficient in healthy individuals.",
+  "contraindications": [
+    "Renal impairment \u2014 reduced clearance; use with caution and physician oversight in CKD",
+    "Hypermagnesemia \u2014 monitor in patients with renal disease"
+  ],
+  "drugInteractions": [
+    "Antibiotics (tetracyclines, fluoroquinolones) \u2014 magnesium reduces absorption; separate by 2+ hours",
+    "Bisphosphonates \u2014 separate by 2+ hours",
+    "Diuretics \u2014 thiazides reduce magnesium excretion (beneficial); loop diuretics increase magnesium loss",
+    "Diabetes medications \u2014 monitor glucose due to insulin-sensitizing effect"
+  ],
+  "physicianNotes": "Bisglycinate form is the preferred clinical choice \u2014 superior absorption, minimal laxative effect, and excellent tolerability. Particularly valuable in patients with hypertension, type 2 diabetes, or metabolic syndrome. Monitor serum magnesium in patients with CKD. Therapeutic range: 300\u2013400mg elemental magnesium daily.",
+  "patientGuidance": "Magnesium bisglycinate is a gentle, well-absorbed form. If you take antibiotics, separate your doses by at least 2 hours. If you have kidney disease, consult your physician before use.",
+  "linkedPublications": []
+}
